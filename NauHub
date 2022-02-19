@@ -888,7 +888,7 @@ UICorner_26.Parent = ImageLabel_3
 
 -- Scripts:
 
-local function IVOJQ_fake_script() -- ImageLabel.LocalScript 
+local function KJUS_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	local Players = game:GetService("Players")
@@ -903,16 +903,16 @@ local function IVOJQ_fake_script() -- ImageLabel.LocalScript
 	local imageLabel = script.Parent
 	imageLabel.Image = content
 end
-coroutine.wrap(IVOJQ_fake_script)()
-local function WSZGGNS_fake_script() -- MainFrame.LocalScript 
+coroutine.wrap(KJUS_fake_script)()
+local function OCLVFT_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local PlayerName = game.Players.LocalPlayer.Name
 	
 	script.Parent.Title1.Text = 'Hello, And Welcome To Nau Hub '..PlayerName..'!'
 end
-coroutine.wrap(WSZGGNS_fake_script)()
-local function JHJDRQ_fake_script() -- FriendButton.RippleEffect 
+coroutine.wrap(OCLVFT_fake_script)()
+local function UPSPGEF_fake_script() -- FriendButton.RippleEffect 
 	local script = Instance.new('LocalScript', FriendButton)
 
 	local Players = game:GetService("Players")
@@ -1056,8 +1056,8 @@ local function JHJDRQ_fake_script() -- FriendButton.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(JHJDRQ_fake_script)()
-local function MLHZ_fake_script() -- ScriptButton.LocalScript 
+coroutine.wrap(UPSPGEF_fake_script)()
+local function AJFSV_fake_script() -- ScriptButton.LocalScript 
 	local script = Instance.new('LocalScript', ScriptButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1066,8 +1066,8 @@ local function MLHZ_fake_script() -- ScriptButton.LocalScript
 		script.Parent.Parent.SettingsFrame.Visible = false
 	end)
 end
-coroutine.wrap(MLHZ_fake_script)()
-local function NKFI_fake_script() -- ScriptButton.RippleEffect 
+coroutine.wrap(AJFSV_fake_script)()
+local function GMBUK_fake_script() -- ScriptButton.RippleEffect 
 	local script = Instance.new('LocalScript', ScriptButton)
 
 	local Players = game:GetService("Players")
@@ -1211,8 +1211,8 @@ local function NKFI_fake_script() -- ScriptButton.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(NKFI_fake_script)()
-local function IOOBLFB_fake_script() -- PowerButton.RippleEffect 
+coroutine.wrap(GMBUK_fake_script)()
+local function OPIB_fake_script() -- PowerButton.RippleEffect 
 	local script = Instance.new('LocalScript', PowerButton)
 
 	local Players = game:GetService("Players")
@@ -1356,8 +1356,8 @@ local function IOOBLFB_fake_script() -- PowerButton.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(IOOBLFB_fake_script)()
-local function LPQQZ_fake_script() -- HomeButton.RippleEffect 
+coroutine.wrap(OPIB_fake_script)()
+local function XPNLT_fake_script() -- HomeButton.RippleEffect 
 	local script = Instance.new('LocalScript', HomeButton)
 
 	local Players = game:GetService("Players")
@@ -1501,8 +1501,8 @@ local function LPQQZ_fake_script() -- HomeButton.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(LPQQZ_fake_script)()
-local function KYCJO_fake_script() -- HomeButton.LocalScript 
+coroutine.wrap(XPNLT_fake_script)()
+local function JCKNMI_fake_script() -- HomeButton.LocalScript 
 	local script = Instance.new('LocalScript', HomeButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1511,8 +1511,8 @@ local function KYCJO_fake_script() -- HomeButton.LocalScript
 		script.Parent.Parent.SettingsFrame.Visible = false
 	end)
 end
-coroutine.wrap(KYCJO_fake_script)()
-local function JTFA_fake_script() -- SettingsButton.RippleEffect 
+coroutine.wrap(JCKNMI_fake_script)()
+local function LPQHK_fake_script() -- SettingsButton.RippleEffect 
 	local script = Instance.new('LocalScript', SettingsButton)
 
 	local Players = game:GetService("Players")
@@ -1656,8 +1656,8 @@ local function JTFA_fake_script() -- SettingsButton.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(JTFA_fake_script)()
-local function FDXWUZF_fake_script() -- SettingsButton.LocalScript 
+coroutine.wrap(LPQHK_fake_script)()
+local function YTODAK_fake_script() -- SettingsButton.LocalScript 
 	local script = Instance.new('LocalScript', SettingsButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1666,8 +1666,8 @@ local function FDXWUZF_fake_script() -- SettingsButton.LocalScript
 		script.Parent.Parent.SettingsFrame.Visible = true
 	end)
 end
-coroutine.wrap(FDXWUZF_fake_script)()
-local function MHLZQWH_fake_script() -- OwlHub.LocalScript 
+coroutine.wrap(YTODAK_fake_script)()
+local function QVHV_fake_script() -- OwlHub.LocalScript 
 	local script = Instance.new('LocalScript', OwlHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1675,8 +1675,8 @@ local function MHLZQWH_fake_script() -- OwlHub.LocalScript
 	end)
 	
 end
-coroutine.wrap(MHLZQWH_fake_script)()
-local function NVUJCTR_fake_script() -- OwlHub.RippleEffect 
+coroutine.wrap(QVHV_fake_script)()
+local function ORFAXQU_fake_script() -- OwlHub.RippleEffect 
 	local script = Instance.new('LocalScript', OwlHub)
 
 	local Players = game:GetService("Players")
@@ -1820,8 +1820,8 @@ local function NVUJCTR_fake_script() -- OwlHub.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(NVUJCTR_fake_script)()
-local function NMCTWV_fake_script() -- PetSimXMLScript.LocalScript 
+coroutine.wrap(ORFAXQU_fake_script)()
+local function ETSDLZQ_fake_script() -- PetSimXMLScript.LocalScript 
 	local script = Instance.new('LocalScript', PetSimXMLScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1829,8 +1829,8 @@ local function NMCTWV_fake_script() -- PetSimXMLScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(NMCTWV_fake_script)()
-local function OELKJ_fake_script() -- PetSimXMLScript.RippleEffect 
+coroutine.wrap(ETSDLZQ_fake_script)()
+local function DZSZL_fake_script() -- PetSimXMLScript.RippleEffect 
 	local script = Instance.new('LocalScript', PetSimXMLScript)
 
 	local Players = game:GetService("Players")
@@ -1974,8 +1974,8 @@ local function OELKJ_fake_script() -- PetSimXMLScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(OELKJ_fake_script)()
-local function DKCUEUY_fake_script() -- InfiniteYieldScript.LocalScript 
+coroutine.wrap(DZSZL_fake_script)()
+local function HGTR_fake_script() -- InfiniteYieldScript.LocalScript 
 	local script = Instance.new('LocalScript', InfiniteYieldScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1983,8 +1983,8 @@ local function DKCUEUY_fake_script() -- InfiniteYieldScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(DKCUEUY_fake_script)()
-local function KIYZ_fake_script() -- InfiniteYieldScript.RippleEffect 
+coroutine.wrap(HGTR_fake_script)()
+local function HYPEPL_fake_script() -- InfiniteYieldScript.RippleEffect 
 	local script = Instance.new('LocalScript', InfiniteYieldScript)
 
 	local Players = game:GetService("Players")
@@ -2128,8 +2128,8 @@ local function KIYZ_fake_script() -- InfiniteYieldScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(KIYZ_fake_script)()
-local function GZSMUNR_fake_script() -- JailBreakScript.LocalScript 
+coroutine.wrap(HYPEPL_fake_script)()
+local function VKZYH_fake_script() -- JailBreakScript.LocalScript 
 	local script = Instance.new('LocalScript', JailBreakScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2137,8 +2137,8 @@ local function GZSMUNR_fake_script() -- JailBreakScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(GZSMUNR_fake_script)()
-local function DEWIGKJ_fake_script() -- JailBreakScript.RippleEffect 
+coroutine.wrap(VKZYH_fake_script)()
+local function RUHBSUG_fake_script() -- JailBreakScript.RippleEffect 
 	local script = Instance.new('LocalScript', JailBreakScript)
 
 	local Players = game:GetService("Players")
@@ -2282,8 +2282,8 @@ local function DEWIGKJ_fake_script() -- JailBreakScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(DEWIGKJ_fake_script)()
-local function UTTP_fake_script() -- HorificHousingScript.LocalScript 
+coroutine.wrap(RUHBSUG_fake_script)()
+local function FNBRT_fake_script() -- HorificHousingScript.LocalScript 
 	local script = Instance.new('LocalScript', HorificHousingScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2291,8 +2291,8 @@ local function UTTP_fake_script() -- HorificHousingScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(UTTP_fake_script)()
-local function YWOGD_fake_script() -- HorificHousingScript.RippleEffect 
+coroutine.wrap(FNBRT_fake_script)()
+local function DXZCM_fake_script() -- HorificHousingScript.RippleEffect 
 	local script = Instance.new('LocalScript', HorificHousingScript)
 
 	local Players = game:GetService("Players")
@@ -2436,8 +2436,8 @@ local function YWOGD_fake_script() -- HorificHousingScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(YWOGD_fake_script)()
-local function IRHVJ_fake_script() -- TowerOfHellScript.LocalScript 
+coroutine.wrap(DXZCM_fake_script)()
+local function RXKWG_fake_script() -- TowerOfHellScript.LocalScript 
 	local script = Instance.new('LocalScript', TowerOfHellScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2445,8 +2445,8 @@ local function IRHVJ_fake_script() -- TowerOfHellScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(IRHVJ_fake_script)()
-local function MSSKFLS_fake_script() -- TowerOfHellScript.RippleEffect 
+coroutine.wrap(RXKWG_fake_script)()
+local function APMLX_fake_script() -- TowerOfHellScript.RippleEffect 
 	local script = Instance.new('LocalScript', TowerOfHellScript)
 
 	local Players = game:GetService("Players")
@@ -2590,8 +2590,8 @@ local function MSSKFLS_fake_script() -- TowerOfHellScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(MSSKFLS_fake_script)()
-local function VSIL_fake_script() -- AdoptMeScript.LocalScript 
+coroutine.wrap(APMLX_fake_script)()
+local function HCFM_fake_script() -- AdoptMeScript.LocalScript 
 	local script = Instance.new('LocalScript', AdoptMeScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2599,8 +2599,8 @@ local function VSIL_fake_script() -- AdoptMeScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(VSIL_fake_script)()
-local function AXAMMHE_fake_script() -- AdoptMeScript.RippleEffect 
+coroutine.wrap(HCFM_fake_script)()
+local function RWXLKR_fake_script() -- AdoptMeScript.RippleEffect 
 	local script = Instance.new('LocalScript', AdoptMeScript)
 
 	local Players = game:GetService("Players")
@@ -2744,8 +2744,8 @@ local function AXAMMHE_fake_script() -- AdoptMeScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(AXAMMHE_fake_script)()
-local function FWUMGRA_fake_script() -- BaseBattlesScript.LocalScript 
+coroutine.wrap(RWXLKR_fake_script)()
+local function BRVMX_fake_script() -- BaseBattlesScript.LocalScript 
 	local script = Instance.new('LocalScript', BaseBattlesScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2753,8 +2753,8 @@ local function FWUMGRA_fake_script() -- BaseBattlesScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(FWUMGRA_fake_script)()
-local function XFTM_fake_script() -- BaseBattlesScript.RippleEffect 
+coroutine.wrap(BRVMX_fake_script)()
+local function VJUOQR_fake_script() -- BaseBattlesScript.RippleEffect 
 	local script = Instance.new('LocalScript', BaseBattlesScript)
 
 	local Players = game:GetService("Players")
@@ -2898,8 +2898,8 @@ local function XFTM_fake_script() -- BaseBattlesScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(XFTM_fake_script)()
-local function OMXIMM_fake_script() -- ArsenalScript.RippleEffect 
+coroutine.wrap(VJUOQR_fake_script)()
+local function HZFC_fake_script() -- ArsenalScript.RippleEffect 
 	local script = Instance.new('LocalScript', ArsenalScript)
 
 	local Players = game:GetService("Players")
@@ -3043,8 +3043,8 @@ local function OMXIMM_fake_script() -- ArsenalScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(OMXIMM_fake_script)()
-local function QBJTHFY_fake_script() -- ArsenalScript.LocalScript 
+coroutine.wrap(HZFC_fake_script)()
+local function NOMXGGB_fake_script() -- ArsenalScript.LocalScript 
 	local script = Instance.new('LocalScript', ArsenalScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3052,8 +3052,8 @@ local function QBJTHFY_fake_script() -- ArsenalScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(QBJTHFY_fake_script)()
-local function VVSG_fake_script() -- Mm2EclipseScript.RippleEffect 
+coroutine.wrap(NOMXGGB_fake_script)()
+local function CAPN_fake_script() -- Mm2EclipseScript.RippleEffect 
 	local script = Instance.new('LocalScript', Mm2EclipseScript)
 
 	local Players = game:GetService("Players")
@@ -3197,8 +3197,8 @@ local function VVSG_fake_script() -- Mm2EclipseScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(VVSG_fake_script)()
-local function JWBBO_fake_script() -- Mm2EclipseScript.LocalScript 
+coroutine.wrap(CAPN_fake_script)()
+local function EHIJBYD_fake_script() -- Mm2EclipseScript.LocalScript 
 	local script = Instance.new('LocalScript', Mm2EclipseScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3206,8 +3206,8 @@ local function JWBBO_fake_script() -- Mm2EclipseScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(JWBBO_fake_script)()
-local function VWOXU_fake_script() -- BedwarsScript.RippleEffect 
+coroutine.wrap(EHIJBYD_fake_script)()
+local function DOGGXT_fake_script() -- BedwarsScript.RippleEffect 
 	local script = Instance.new('LocalScript', BedwarsScript)
 
 	local Players = game:GetService("Players")
@@ -3351,8 +3351,8 @@ local function VWOXU_fake_script() -- BedwarsScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(VWOXU_fake_script)()
-local function LHTZ_fake_script() -- BedwarsScript.LocalScript 
+coroutine.wrap(DOGGXT_fake_script)()
+local function KLTQVIO_fake_script() -- BedwarsScript.LocalScript 
 	local script = Instance.new('LocalScript', BedwarsScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3360,8 +3360,8 @@ local function LHTZ_fake_script() -- BedwarsScript.LocalScript
 	end)	
 	
 end
-coroutine.wrap(LHTZ_fake_script)()
-local function EDMJN_fake_script() -- ImageLabel_2.LocalScript 
+coroutine.wrap(KLTQVIO_fake_script)()
+local function IPNX_fake_script() -- ImageLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel_2)
 
 	local Players = game:GetService("Players")
@@ -3376,30 +3376,30 @@ local function EDMJN_fake_script() -- ImageLabel_2.LocalScript
 	local imageLabel = script.Parent
 	imageLabel.Image = content
 end
-coroutine.wrap(EDMJN_fake_script)()
-local function NPAM_fake_script() -- MainFrame.LocalScript 
+coroutine.wrap(IPNX_fake_script)()
+local function MLJDEA_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local PlayerName = game.Players.LocalPlayer.Name
 	
 	script.Parent.HomeFrame.Title2.Text = ''..PlayerName.. ''
 end
-coroutine.wrap(NPAM_fake_script)()
-local function AABP_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(MLJDEA_fake_script)()
+local function VRTX_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	
 end
-coroutine.wrap(AABP_fake_script)()
-local function HFXNMDJ_fake_script() -- LoadingFrame.TitleScript 
+coroutine.wrap(VRTX_fake_script)()
+local function AELRPY_fake_script() -- LoadingFrame.TitleScript 
 	local script = Instance.new('LocalScript', LoadingFrame)
 
 	local PlayerName = game.Players.LocalPlayer.Name
 	
 	script.Parent.Title1.Text = 'Welcome To Nau Hub '..PlayerName.. '!'
 end
-coroutine.wrap(HFXNMDJ_fake_script)()
-local function XWMLIM_fake_script() -- ScriptLoadingButton.LocalScript 
+coroutine.wrap(AELRPY_fake_script)()
+local function GZUEXXH_fake_script() -- ScriptLoadingButton.Tweening 
 	local script = Instance.new('LocalScript', ScriptLoadingButton)
 
 	local tween = script.Parent.Parent
@@ -3422,8 +3422,19 @@ local function XWMLIM_fake_script() -- ScriptLoadingButton.LocalScript
 	
 	
 end
-coroutine.wrap(XWMLIM_fake_script)()
-local function HZNAI_fake_script() -- LoadingFrame.TweeningScript 
+coroutine.wrap(GZUEXXH_fake_script)()
+local function EVCPGO_fake_script() -- ScriptLoadingButton.Sound 
+	local script = Instance.new('LocalScript', ScriptLoadingButton)
+
+	function PlaySound( )
+		script.Parent.Parent.Parent.Sound1:Play( )
+	end
+	script.Parent.MouseButton1Click:connect (PlaySound)
+	
+	
+end
+coroutine.wrap(EVCPGO_fake_script)()
+local function UIRHIE_fake_script() -- LoadingFrame.TweeningScript 
 	local script = Instance.new('LocalScript', LoadingFrame)
 
 	-- Script by Moses_chin2110
@@ -3438,8 +3449,8 @@ local function HZNAI_fake_script() -- LoadingFrame.TweeningScript
 	end
 	
 end
-coroutine.wrap(HZNAI_fake_script)()
-local function RILTYCD_fake_script() -- ImageLabel_3.LocalScript 
+coroutine.wrap(UIRHIE_fake_script)()
+local function JLBX_fake_script() -- ImageLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel_3)
 
 	local Players = game:GetService("Players")
@@ -3454,4 +3465,4 @@ local function RILTYCD_fake_script() -- ImageLabel_3.LocalScript
 	local imageLabel = script.Parent
 	imageLabel.Image = content
 end
-coroutine.wrap(RILTYCD_fake_script)()
+coroutine.wrap(JLBX_fake_script)()
