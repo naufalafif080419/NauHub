@@ -104,41 +104,35 @@ local UICorner_17 = Instance.new("UICorner")
 local ImageLabel_2 = Instance.new("ImageLabel")
 local UICorner_18 = Instance.new("UICorner")
 local Tysnmsn = Instance.new("TextLabel")
-local Today = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
 local UICorner_19 = Instance.new("UICorner")
 local Title2 = Instance.new("TextLabel")
-local Date = Instance.new("TextLabel")
-local Time = Instance.new("TextLabel")
 local Pattern = Instance.new("ImageLabel")
 local SettingsFrame = Instance.new("Frame")
 local UICorner_20 = Instance.new("UICorner")
-local TextLabel_12 = Instance.new("TextLabel")
-local UICorner_21 = Instance.new("UICorner")
 local TextLabel_13 = Instance.new("TextLabel")
+local UICorner_21 = Instance.new("UICorner")
+local TextLabel_14 = Instance.new("TextLabel")
 local UICorner_22 = Instance.new("UICorner")
 local TextButton = Instance.new("TextButton")
 local UICorner_23 = Instance.new("UICorner")
 local Title1 = Instance.new("TextLabel")
 local CreditsFrame = Instance.new("Frame")
 local UICorner_24 = Instance.new("UICorner")
-local TextLabel_14 = Instance.new("TextLabel")
-local UICorner_25 = Instance.new("UICorner")
 local TextLabel_15 = Instance.new("TextLabel")
-local UICorner_26 = Instance.new("UICorner")
+local UICorner_25 = Instance.new("UICorner")
 local TextLabel_16 = Instance.new("TextLabel")
-local UICorner_27 = Instance.new("UICorner")
+local UICorner_26 = Instance.new("UICorner")
 local TextLabel_17 = Instance.new("TextLabel")
-local Time_2 = Instance.new("TextLabel")
-local UICorner_28 = Instance.new("UICorner")
-local FPSCounter = Instance.new("TextLabel")
-local UICorner_29 = Instance.new("UICorner")
+local UICorner_27 = Instance.new("UICorner")
+local TextLabel_18 = Instance.new("TextLabel")
 local LoadingFrame = Instance.new("Frame")
-local UICorner_30 = Instance.new("UICorner")
+local UICorner_28 = Instance.new("UICorner")
 local Title1_2 = Instance.new("TextLabel")
 local ScriptLoadingButton = Instance.new("TextButton")
-local UICorner_31 = Instance.new("UICorner")
+local UICorner_29 = Instance.new("UICorner")
 local ImageLabel_3 = Instance.new("ImageLabel")
-local UICorner_32 = Instance.new("UICorner")
+local UICorner_30 = Instance.new("UICorner")
 
 --Properties:
 
@@ -149,7 +143,7 @@ NauHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 MainFrame.Name = "MainFrame"
 MainFrame.Parent = NauHub
 MainFrame.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-MainFrame.Position = UDim2.new(0, 634, 0, 3000)
+MainFrame.Position = UDim2.new(0.291000009, 0, -1, 0)
 MainFrame.Size = UDim2.new(0, 670, 0, 348)
 
 UICorner.Parent = MainFrame
@@ -693,6 +687,7 @@ HomeFrame.Parent = MainFrame
 HomeFrame.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
 HomeFrame.Position = UDim2.new(0.0268656723, 0, 0.18965517, 0)
 HomeFrame.Size = UDim2.new(0, 641, 0, 265)
+HomeFrame.Visible = false
 
 UICorner_16.Parent = HomeFrame
 
@@ -726,19 +721,17 @@ Tysnmsn.TextScaled = true
 Tysnmsn.TextSize = 14.000
 Tysnmsn.TextWrapped = true
 
-Today.Name = "Today"
-Today.Parent = HomeFrame
-Today.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
-Today.Position = UDim2.new(0.528290629, 0, 0.0207771733, 0)
-Today.Size = UDim2.new(0, 290, 0, 253)
-Today.Font = Enum.Font.RobotoMono
-Today.LineHeight = 3.000
-Today.Text = "Today Is"
-Today.TextColor3 = Color3.fromRGB(255, 255, 255)
-Today.TextSize = 30.000
-Today.TextWrapped = true
+TextLabel_12.Parent = HomeFrame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
+TextLabel_12.Position = UDim2.new(0.529850721, 0, 0.0283243358, 0)
+TextLabel_12.Size = UDim2.new(0, 290, 0, 239)
+TextLabel_12.Font = Enum.Font.RobotoMono
+TextLabel_12.Text = "New Updates:\\n- New Script Hub\\n- Better Ui"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 40.000
+TextLabel_12.TextWrapped = true
 
-UICorner_19.Parent = Today
+UICorner_19.Parent = TextLabel_12
 
 Title2.Name = "Title2"
 Title2.Parent = HomeFrame
@@ -751,32 +744,6 @@ Title2.Text = "PlayerName!"
 Title2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title2.TextSize = 14.000
 Title2.TextWrapped = true
-
-Date.Name = "Date"
-Date.Parent = HomeFrame
-Date.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
-Date.BackgroundTransparency = 1.000
-Date.Position = UDim2.new(0.528290629, 0, 0.160399809, 0)
-Date.Size = UDim2.new(0, 290, 0, 239)
-Date.Font = Enum.Font.RobotoMono
-Date.LineHeight = 3.000
-Date.Text = "Jan/1/2022"
-Date.TextColor3 = Color3.fromRGB(255, 255, 255)
-Date.TextSize = 20.000
-Date.TextWrapped = true
-
-Time.Name = "Time"
-Time.Parent = HomeFrame
-Time.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
-Time.BackgroundTransparency = 1.000
-Time.Position = UDim2.new(0.528290629, 0, 0.247192264, 0)
-Time.Size = UDim2.new(0, 290, 0, 239)
-Time.Font = Enum.Font.RobotoMono
-Time.LineHeight = 3.000
-Time.Text = "00:00:00"
-Time.TextColor3 = Color3.fromRGB(255, 255, 255)
-Time.TextSize = 20.000
-Time.TextWrapped = true
 
 Pattern.Name = "Pattern"
 Pattern.Parent = MainFrame
@@ -801,30 +768,30 @@ SettingsFrame.Visible = false
 
 UICorner_20.Parent = SettingsFrame
 
-TextLabel_12.Parent = SettingsFrame
-TextLabel_12.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-TextLabel_12.Position = UDim2.new(0.376146793, 0, 0.0392156877, 0)
-TextLabel_12.Size = UDim2.new(0, 162, 0, 34)
-TextLabel_12.Font = Enum.Font.Cartoon
-TextLabel_12.Text = "Settings:"
-TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_12.TextScaled = true
-TextLabel_12.TextSize = 14.000
-TextLabel_12.TextWrapped = true
-
-UICorner_21.Parent = TextLabel_12
-
 TextLabel_13.Parent = SettingsFrame
-TextLabel_13.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-TextLabel_13.Position = UDim2.new(0, 0, 0.23137255, 0)
-TextLabel_13.Size = UDim2.new(0, 152, 0, 46)
-TextLabel_13.Font = Enum.Font.LuckiestGuy
-TextLabel_13.Text = "Pattern:"
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextLabel_13.Position = UDim2.new(0.376146793, 0, 0.0392156877, 0)
+TextLabel_13.Size = UDim2.new(0, 162, 0, 34)
+TextLabel_13.Font = Enum.Font.Cartoon
+TextLabel_13.Text = "Settings:"
 TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_13.TextSize = 30.000
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
 TextLabel_13.TextWrapped = true
 
-UICorner_22.Parent = TextLabel_13
+UICorner_21.Parent = TextLabel_13
+
+TextLabel_14.Parent = SettingsFrame
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel_14.Position = UDim2.new(0, 0, 0.23137255, 0)
+TextLabel_14.Size = UDim2.new(0, 152, 0, 46)
+TextLabel_14.Font = Enum.Font.LuckiestGuy
+TextLabel_14.Text = "Pattern:"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 30.000
+TextLabel_14.TextWrapped = true
+
+UICorner_22.Parent = TextLabel_14
 
 TextButton.Parent = SettingsFrame
 TextButton.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
@@ -861,80 +828,56 @@ CreditsFrame.Visible = false
 
 UICorner_24.Parent = CreditsFrame
 
-TextLabel_14.Parent = CreditsFrame
-TextLabel_14.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
-TextLabel_14.Position = UDim2.new(0.00764526427, 0, 0.0225563943, 0)
-TextLabel_14.Size = UDim2.new(0, 123, 0, 38)
-TextLabel_14.Font = Enum.Font.SourceSans
-TextLabel_14.Text = "Credits:  "
-TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_14.TextScaled = true
-TextLabel_14.TextSize = 14.000
-TextLabel_14.TextWrapped = true
-
-UICorner_25.Parent = TextLabel_14
-
 TextLabel_15.Parent = CreditsFrame
 TextLabel_15.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
-TextLabel_15.BackgroundTransparency = 1.000
-TextLabel_15.Position = UDim2.new(0.0107033644, 0, 0.165413529, 0)
-TextLabel_15.Size = UDim2.new(0, 509, 0, 38)
+TextLabel_15.Position = UDim2.new(0.00764526427, 0, 0.0225563943, 0)
+TextLabel_15.Size = UDim2.new(0, 123, 0, 38)
 TextLabel_15.Font = Enum.Font.SourceSans
-TextLabel_15.Text = "-naufalafif080419 Better UI And Nau Hub Scripter"
+TextLabel_15.Text = "Credits:  "
 TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_15.TextScaled = true
 TextLabel_15.TextSize = 14.000
 TextLabel_15.TextWrapped = true
 
-UICorner_26.Parent = TextLabel_15
+UICorner_25.Parent = TextLabel_15
 
 TextLabel_16.Parent = CreditsFrame
 TextLabel_16.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
 TextLabel_16.BackgroundTransparency = 1.000
-TextLabel_16.Position = UDim2.new(0.0107033644, 0, 0.36090228, 0)
+TextLabel_16.Position = UDim2.new(0.0107033644, 0, 0.165413529, 0)
 TextLabel_16.Size = UDim2.new(0, 509, 0, 38)
 TextLabel_16.Font = Enum.Font.SourceSans
-TextLabel_16.Text = "-And Another Developer's Help Me To Create This Exploit Script"
+TextLabel_16.Text = "-naufalafif080419 Better UI And Nau Hub Scripter"
 TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_16.TextScaled = true
 TextLabel_16.TextSize = 14.000
 TextLabel_16.TextWrapped = true
 
-UICorner_27.Parent = TextLabel_16
+UICorner_26.Parent = TextLabel_16
 
-TextLabel_17.Parent = MainFrame
-TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.Parent = CreditsFrame
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
 TextLabel_17.BackgroundTransparency = 1.000
-TextLabel_17.Position = UDim2.new(0.700000048, 0, 0.951149404, 0)
-TextLabel_17.Size = UDim2.new(0, 200, 0, 17)
+TextLabel_17.Position = UDim2.new(0.0107033644, 0, 0.36090228, 0)
+TextLabel_17.Size = UDim2.new(0, 509, 0, 38)
 TextLabel_17.Font = Enum.Font.SourceSans
-TextLabel_17.Text = "Press Right Ctrl To OPEN And CLOSE Gui"
+TextLabel_17.Text = "-And Another Developer's Help Me To Create This Exploit Script"
 TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_17.TextSize = 13.000
+TextLabel_17.TextScaled = true
+TextLabel_17.TextSize = 14.000
+TextLabel_17.TextWrapped = true
 
-Time_2.Name = "Time"
-Time_2.Parent = MainFrame
-Time_2.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
-Time_2.Position = UDim2.new(0.820895493, 0, 0.0344827585, 0)
-Time_2.Size = UDim2.new(0, 109, 0, 35)
-Time_2.Font = Enum.Font.Nunito
-Time_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Time_2.TextSize = 20.000
-Time_2.TextWrapped = true
+UICorner_27.Parent = TextLabel_17
 
-UICorner_28.Parent = Time_2
-
-FPSCounter.Name = "FPS Counter"
-FPSCounter.Parent = MainFrame
-FPSCounter.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
-FPSCounter.Position = UDim2.new(0.628358185, 0, 0.0373563208, 0)
-FPSCounter.Size = UDim2.new(0, 109, 0, 35)
-FPSCounter.Font = Enum.Font.Nunito
-FPSCounter.TextColor3 = Color3.fromRGB(255, 255, 255)
-FPSCounter.TextSize = 20.000
-FPSCounter.TextWrapped = true
-
-UICorner_29.Parent = FPSCounter
+TextLabel_18.Parent = MainFrame
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.Position = UDim2.new(0.700000048, 0, 0.951149404, 0)
+TextLabel_18.Size = UDim2.new(0, 200, 0, 17)
+TextLabel_18.Font = Enum.Font.SourceSans
+TextLabel_18.Text = "Press Right Shift To OPEN And CLOSE Gui"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 13.000
 
 LoadingFrame.Name = "LoadingFrame"
 LoadingFrame.Parent = NauHub
@@ -943,7 +886,7 @@ LoadingFrame.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 LoadingFrame.Position = UDim2.new(0.5, 0, 3, 0)
 LoadingFrame.Size = UDim2.new(0, 637, 0, 451)
 
-UICorner_30.Parent = LoadingFrame
+UICorner_28.Parent = LoadingFrame
 
 Title1_2.Name = "Title1"
 Title1_2.Parent = LoadingFrame
@@ -971,7 +914,7 @@ ScriptLoadingButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 ScriptLoadingButton.TextSize = 40.000
 ScriptLoadingButton.TextWrapped = true
 
-UICorner_31.Parent = ScriptLoadingButton
+UICorner_29.Parent = ScriptLoadingButton
 
 ImageLabel_3.Parent = LoadingFrame
 ImageLabel_3.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
@@ -980,12 +923,12 @@ ImageLabel_3.Size = UDim2.new(0, 113, 0, 117)
 ImageLabel_3.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
 ImageLabel_3.ScaleType = Enum.ScaleType.Fit
 
-UICorner_32.CornerRadius = UDim.new(1, 0)
-UICorner_32.Parent = ImageLabel_3
+UICorner_30.CornerRadius = UDim.new(1, 0)
+UICorner_30.Parent = ImageLabel_3
 
 -- Scripts:
 
-local function PLMV_fake_script() -- ImageLabel.LocalScript 
+local function PYTB_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	local Players = game:GetService("Players")
@@ -1000,16 +943,16 @@ local function PLMV_fake_script() -- ImageLabel.LocalScript
 	local imageLabel = script.Parent
 	imageLabel.Image = content
 end
-coroutine.wrap(PLMV_fake_script)()
-local function BJXLXK_fake_script() -- MainFrame.PlrWelcome 
+coroutine.wrap(PYTB_fake_script)()
+local function TALOFS_fake_script() -- MainFrame.PlrWelcome 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local PlayerName = game.Players.LocalPlayer.Name
 	
 	script.Parent.Title1.Text = 'Hello, And Welcome To Nau Hub '..PlayerName..'!'
 end
-coroutine.wrap(BJXLXK_fake_script)()
-local function RPMQFUZ_fake_script() -- CreditsButton.RippleEffect 
+coroutine.wrap(TALOFS_fake_script)()
+local function ONVGCE_fake_script() -- CreditsButton.RippleEffect 
 	local script = Instance.new('LocalScript', CreditsButton)
 
 	local Players = game:GetService("Players")
@@ -1153,8 +1096,8 @@ local function RPMQFUZ_fake_script() -- CreditsButton.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(RPMQFUZ_fake_script)()
-local function RUOP_fake_script() -- CreditsButton.CreditsButtonScript 
+coroutine.wrap(ONVGCE_fake_script)()
+local function IKNPF_fake_script() -- CreditsButton.CreditsButtonScript 
 	local script = Instance.new('LocalScript', CreditsButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1165,8 +1108,8 @@ local function RUOP_fake_script() -- CreditsButton.CreditsButtonScript
 		
 	end)
 end
-coroutine.wrap(RUOP_fake_script)()
-local function LJVMV_fake_script() -- ScriptButton.LocalScript 
+coroutine.wrap(IKNPF_fake_script)()
+local function YNTFXUD_fake_script() -- ScriptButton.LocalScript 
 	local script = Instance.new('LocalScript', ScriptButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1176,8 +1119,8 @@ local function LJVMV_fake_script() -- ScriptButton.LocalScript
 		script.Parent.Parent.CreditsFrame.Visible = false
 	end)
 end
-coroutine.wrap(LJVMV_fake_script)()
-local function GYVNP_fake_script() -- ScriptButton.RippleEffect 
+coroutine.wrap(YNTFXUD_fake_script)()
+local function HMEUPM_fake_script() -- ScriptButton.RippleEffect 
 	local script = Instance.new('LocalScript', ScriptButton)
 
 	local Players = game:GetService("Players")
@@ -1321,8 +1264,8 @@ local function GYVNP_fake_script() -- ScriptButton.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(GYVNP_fake_script)()
-local function VOPRBU_fake_script() -- HomeButton.RippleEffect 
+coroutine.wrap(HMEUPM_fake_script)()
+local function ITHVHQM_fake_script() -- HomeButton.RippleEffect 
 	local script = Instance.new('LocalScript', HomeButton)
 
 	local Players = game:GetService("Players")
@@ -1466,8 +1409,8 @@ local function VOPRBU_fake_script() -- HomeButton.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(VOPRBU_fake_script)()
-local function VMXZWN_fake_script() -- HomeButton.LocalScript 
+coroutine.wrap(ITHVHQM_fake_script)()
+local function WEGEOKB_fake_script() -- HomeButton.LocalScript 
 	local script = Instance.new('LocalScript', HomeButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1477,8 +1420,8 @@ local function VMXZWN_fake_script() -- HomeButton.LocalScript
 		script.Parent.Parent.CreditsFrame.Visible = false
 	end)
 end
-coroutine.wrap(VMXZWN_fake_script)()
-local function JDWR_fake_script() -- SettingsButton.RippleEffect 
+coroutine.wrap(WEGEOKB_fake_script)()
+local function RAZVGO_fake_script() -- SettingsButton.RippleEffect 
 	local script = Instance.new('LocalScript', SettingsButton)
 
 	local Players = game:GetService("Players")
@@ -1622,8 +1565,8 @@ local function JDWR_fake_script() -- SettingsButton.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(JDWR_fake_script)()
-local function ZPJF_fake_script() -- SettingsButton.LocalScript 
+coroutine.wrap(RAZVGO_fake_script)()
+local function UMIWHF_fake_script() -- SettingsButton.LocalScript 
 	local script = Instance.new('LocalScript', SettingsButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1633,8 +1576,8 @@ local function ZPJF_fake_script() -- SettingsButton.LocalScript
 		script.Parent.Parent.CreditsFrame.Visible = false
 	end)
 end
-coroutine.wrap(ZPJF_fake_script)()
-local function GMISHNW_fake_script() -- OwlHub.LocalScript 
+coroutine.wrap(UMIWHF_fake_script)()
+local function RYWQOQ_fake_script() -- OwlHub.LocalScript 
 	local script = Instance.new('LocalScript', OwlHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1642,8 +1585,8 @@ local function GMISHNW_fake_script() -- OwlHub.LocalScript
 	end)
 	
 end
-coroutine.wrap(GMISHNW_fake_script)()
-local function LCDPNC_fake_script() -- OwlHub.RippleEffect 
+coroutine.wrap(RYWQOQ_fake_script)()
+local function GSTRDOG_fake_script() -- OwlHub.RippleEffect 
 	local script = Instance.new('LocalScript', OwlHub)
 
 	local Players = game:GetService("Players")
@@ -1787,8 +1730,8 @@ local function LCDPNC_fake_script() -- OwlHub.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(LCDPNC_fake_script)()
-local function HEKO_fake_script() -- PetSimXMLScript.LocalScript 
+coroutine.wrap(GSTRDOG_fake_script)()
+local function SXAW_fake_script() -- PetSimXMLScript.LocalScript 
 	local script = Instance.new('LocalScript', PetSimXMLScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1796,8 +1739,8 @@ local function HEKO_fake_script() -- PetSimXMLScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(HEKO_fake_script)()
-local function YNVIMJ_fake_script() -- PetSimXMLScript.RippleEffect 
+coroutine.wrap(SXAW_fake_script)()
+local function ANKTS_fake_script() -- PetSimXMLScript.RippleEffect 
 	local script = Instance.new('LocalScript', PetSimXMLScript)
 
 	local Players = game:GetService("Players")
@@ -1941,8 +1884,8 @@ local function YNVIMJ_fake_script() -- PetSimXMLScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(YNVIMJ_fake_script)()
-local function KJWUPUG_fake_script() -- InfiniteYieldScript.LocalScript 
+coroutine.wrap(ANKTS_fake_script)()
+local function RBPAHR_fake_script() -- InfiniteYieldScript.LocalScript 
 	local script = Instance.new('LocalScript', InfiniteYieldScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1950,8 +1893,8 @@ local function KJWUPUG_fake_script() -- InfiniteYieldScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(KJWUPUG_fake_script)()
-local function XBRCDC_fake_script() -- InfiniteYieldScript.RippleEffect 
+coroutine.wrap(RBPAHR_fake_script)()
+local function FQZB_fake_script() -- InfiniteYieldScript.RippleEffect 
 	local script = Instance.new('LocalScript', InfiniteYieldScript)
 
 	local Players = game:GetService("Players")
@@ -2095,8 +2038,8 @@ local function XBRCDC_fake_script() -- InfiniteYieldScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(XBRCDC_fake_script)()
-local function ZUYAWQH_fake_script() -- JailBreakScript.LocalScript 
+coroutine.wrap(FQZB_fake_script)()
+local function QXUGV_fake_script() -- JailBreakScript.LocalScript 
 	local script = Instance.new('LocalScript', JailBreakScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2104,8 +2047,8 @@ local function ZUYAWQH_fake_script() -- JailBreakScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(ZUYAWQH_fake_script)()
-local function GUTYBB_fake_script() -- JailBreakScript.RippleEffect 
+coroutine.wrap(QXUGV_fake_script)()
+local function WPEUVIQ_fake_script() -- JailBreakScript.RippleEffect 
 	local script = Instance.new('LocalScript', JailBreakScript)
 
 	local Players = game:GetService("Players")
@@ -2249,8 +2192,8 @@ local function GUTYBB_fake_script() -- JailBreakScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(GUTYBB_fake_script)()
-local function XRUDTL_fake_script() -- HorificHousingScript.LocalScript 
+coroutine.wrap(WPEUVIQ_fake_script)()
+local function NTFYZOH_fake_script() -- HorificHousingScript.LocalScript 
 	local script = Instance.new('LocalScript', HorificHousingScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2258,8 +2201,8 @@ local function XRUDTL_fake_script() -- HorificHousingScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(XRUDTL_fake_script)()
-local function DCIELX_fake_script() -- HorificHousingScript.RippleEffect 
+coroutine.wrap(NTFYZOH_fake_script)()
+local function AHMRO_fake_script() -- HorificHousingScript.RippleEffect 
 	local script = Instance.new('LocalScript', HorificHousingScript)
 
 	local Players = game:GetService("Players")
@@ -2403,8 +2346,8 @@ local function DCIELX_fake_script() -- HorificHousingScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(DCIELX_fake_script)()
-local function AHQXSZE_fake_script() -- TowerOfHellScript.LocalScript 
+coroutine.wrap(AHMRO_fake_script)()
+local function ESXG_fake_script() -- TowerOfHellScript.LocalScript 
 	local script = Instance.new('LocalScript', TowerOfHellScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2412,8 +2355,8 @@ local function AHQXSZE_fake_script() -- TowerOfHellScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(AHQXSZE_fake_script)()
-local function MHTXED_fake_script() -- TowerOfHellScript.RippleEffect 
+coroutine.wrap(ESXG_fake_script)()
+local function TWWZMOF_fake_script() -- TowerOfHellScript.RippleEffect 
 	local script = Instance.new('LocalScript', TowerOfHellScript)
 
 	local Players = game:GetService("Players")
@@ -2557,8 +2500,8 @@ local function MHTXED_fake_script() -- TowerOfHellScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(MHTXED_fake_script)()
-local function PSURI_fake_script() -- AdoptMeScript.LocalScript 
+coroutine.wrap(TWWZMOF_fake_script)()
+local function BJQL_fake_script() -- AdoptMeScript.LocalScript 
 	local script = Instance.new('LocalScript', AdoptMeScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2566,8 +2509,8 @@ local function PSURI_fake_script() -- AdoptMeScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(PSURI_fake_script)()
-local function LQCF_fake_script() -- AdoptMeScript.RippleEffect 
+coroutine.wrap(BJQL_fake_script)()
+local function ETALN_fake_script() -- AdoptMeScript.RippleEffect 
 	local script = Instance.new('LocalScript', AdoptMeScript)
 
 	local Players = game:GetService("Players")
@@ -2711,8 +2654,8 @@ local function LQCF_fake_script() -- AdoptMeScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(LQCF_fake_script)()
-local function OMAFE_fake_script() -- BaseBattlesScript.LocalScript 
+coroutine.wrap(ETALN_fake_script)()
+local function UPWCOF_fake_script() -- BaseBattlesScript.LocalScript 
 	local script = Instance.new('LocalScript', BaseBattlesScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2720,8 +2663,8 @@ local function OMAFE_fake_script() -- BaseBattlesScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(OMAFE_fake_script)()
-local function FMTF_fake_script() -- BaseBattlesScript.RippleEffect 
+coroutine.wrap(UPWCOF_fake_script)()
+local function SLVGMY_fake_script() -- BaseBattlesScript.RippleEffect 
 	local script = Instance.new('LocalScript', BaseBattlesScript)
 
 	local Players = game:GetService("Players")
@@ -2865,8 +2808,8 @@ local function FMTF_fake_script() -- BaseBattlesScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(FMTF_fake_script)()
-local function OIPAD_fake_script() -- ArsenalScript.RippleEffect 
+coroutine.wrap(SLVGMY_fake_script)()
+local function XQES_fake_script() -- ArsenalScript.RippleEffect 
 	local script = Instance.new('LocalScript', ArsenalScript)
 
 	local Players = game:GetService("Players")
@@ -3010,8 +2953,8 @@ local function OIPAD_fake_script() -- ArsenalScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(OIPAD_fake_script)()
-local function ABHMOWL_fake_script() -- ArsenalScript.LocalScript 
+coroutine.wrap(XQES_fake_script)()
+local function KYKLN_fake_script() -- ArsenalScript.LocalScript 
 	local script = Instance.new('LocalScript', ArsenalScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3019,8 +2962,8 @@ local function ABHMOWL_fake_script() -- ArsenalScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(ABHMOWL_fake_script)()
-local function DLBQFXW_fake_script() -- Mm2EclipseScript.RippleEffect 
+coroutine.wrap(KYKLN_fake_script)()
+local function RAJH_fake_script() -- Mm2EclipseScript.RippleEffect 
 	local script = Instance.new('LocalScript', Mm2EclipseScript)
 
 	local Players = game:GetService("Players")
@@ -3164,8 +3107,8 @@ local function DLBQFXW_fake_script() -- Mm2EclipseScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(DLBQFXW_fake_script)()
-local function VMTB_fake_script() -- Mm2EclipseScript.LocalScript 
+coroutine.wrap(RAJH_fake_script)()
+local function ALTO_fake_script() -- Mm2EclipseScript.LocalScript 
 	local script = Instance.new('LocalScript', Mm2EclipseScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3173,8 +3116,8 @@ local function VMTB_fake_script() -- Mm2EclipseScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(VMTB_fake_script)()
-local function NFGNPJ_fake_script() -- BedwarsScript.RippleEffect 
+coroutine.wrap(ALTO_fake_script)()
+local function MUWMBW_fake_script() -- BedwarsScript.RippleEffect 
 	local script = Instance.new('LocalScript', BedwarsScript)
 
 	local Players = game:GetService("Players")
@@ -3318,8 +3261,8 @@ local function NFGNPJ_fake_script() -- BedwarsScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(NFGNPJ_fake_script)()
-local function GXXCRR_fake_script() -- BedwarsScript.LocalScript 
+coroutine.wrap(MUWMBW_fake_script)()
+local function NUVKQTD_fake_script() -- BedwarsScript.LocalScript 
 	local script = Instance.new('LocalScript', BedwarsScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3327,8 +3270,8 @@ local function GXXCRR_fake_script() -- BedwarsScript.LocalScript
 	end)	
 	
 end
-coroutine.wrap(GXXCRR_fake_script)()
-local function KIPZW_fake_script() -- ImageLabel_2.LocalScript 
+coroutine.wrap(NUVKQTD_fake_script)()
+local function XZOMLM_fake_script() -- ImageLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel_2)
 
 	local Players = game:GetService("Players")
@@ -3343,85 +3286,37 @@ local function KIPZW_fake_script() -- ImageLabel_2.LocalScript
 	local imageLabel = script.Parent
 	imageLabel.Image = content
 end
-coroutine.wrap(KIPZW_fake_script)()
-local function IJBM_fake_script() -- MainFrame.PlrWelcome 
+coroutine.wrap(XZOMLM_fake_script)()
+local function TWATO_fake_script() -- MainFrame.PlrWelcome 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local PlayerName = game.Players.LocalPlayer.Name
 	
 	script.Parent.HomeFrame.Title2.Text = ''..PlayerName.. ''
 end
-coroutine.wrap(IJBM_fake_script)()
-local function BGNFRSD_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(TWATO_fake_script)()
+local function KHYN_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	
 end
-coroutine.wrap(BGNFRSD_fake_script)()
-local function GABGAC_fake_script() -- MainFrame.TimeScript 
+coroutine.wrap(KHYN_fake_script)()
+local function RQGDWN_fake_script() -- MainFrame.Open And Close 
 	local script = Instance.new('LocalScript', MainFrame)
 
-	local mainFrame = script.Parent.Parent:WaitForChild("MainFrame")
-	local timeLabel = mainFrame:WaitForChild("Time")
 	
-	while wait() do
-		local seconds = os.date("*t")["sec"]
-		local minutes = os.date("*t")["min"]
-		local hours = os.date("*t")["hour"]
-	
-		if tonumber(seconds)<= 9 then
-			seconds = "0".. seconds
-	
-		end
-		if tonumber(minutes) <= 9 then
-			minutes = "0"..minutes
-	
-		end
-		if tonumber(hours)<= 9 then
-			hours = "0"..hours
-	
-		end
-		timeLabel.Text = hours..":"..minutes..":"..seconds
-	end
 end
-coroutine.wrap(GABGAC_fake_script)()
-local function ITKVP_fake_script() -- MainFrame.DateAndTime 
-	local script = Instance.new('LocalScript', MainFrame)
-
-	while wait() do 
-		local Data = os.date("*t")
-		local Months = {"Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"}
-		local Date = script.Parent.HomeFrame:WaitForChild("Date")
-		local Time = script.Parent.HomeFrame:WaitForChild("Time")
-		for i,v in pairs(Months) do
-			if Data.month == i then
-		Data.Text = v.."/"..Data.day.."/"..Data.year
-		end
-	end
-	Time.Text = Data.hour..":"..Data.min..":"..Data.sec
-	end
-end
-coroutine.wrap(ITKVP_fake_script)()
-local function ESGC_fake_script() -- FPSCounter.FPS Counter 
-	local script = Instance.new('LocalScript', FPSCounter)
-
-	local textLabel = script.Parent
-	
-	while wait() do
-		local fps = game.Workspace:GetRealPhysicsFPS()
-		textLabel.Text = "FPS: "..math.floor(fps)
-	end
-end
-coroutine.wrap(ESGC_fake_script)()
-local function LYJSFB_fake_script() -- LoadingFrame.TitleScript 
+coroutine.wrap(RQGDWN_fake_script)()
+-- MainFrame.Open2 is disabled.
+local function FKNQCOJ_fake_script() -- LoadingFrame.TitleScript 
 	local script = Instance.new('LocalScript', LoadingFrame)
 
 	local PlayerName = game.Players.LocalPlayer.Name
 	
 	script.Parent.Title1.Text = 'Welcome To Nau Hub '..PlayerName.. '!'
 end
-coroutine.wrap(LYJSFB_fake_script)()
-local function EOXJQNT_fake_script() -- ScriptLoadingButton.Tweening 
+coroutine.wrap(FKNQCOJ_fake_script)()
+local function YJIFJNZ_fake_script() -- ScriptLoadingButton.Tweening 
 	local script = Instance.new('LocalScript', ScriptLoadingButton)
 
 	local tween = script.Parent.Parent
@@ -3441,13 +3336,13 @@ local function EOXJQNT_fake_script() -- ScriptLoadingButton.Tweening
 		local tween = script.Parent.Parent.Parent.MainFrame
 		wait(4)
 		script.Parent.Parent.Parent.MainFrame.Visible = true
-		tween:TweenPosition((UDim2.new(0, 634,0, 366)))
+		tween:TweenPosition((UDim2.new(0.291, 0,0.312, 0)))
 	end)
 	
 	
 end
-coroutine.wrap(EOXJQNT_fake_script)()
-local function UXXRGRA_fake_script() -- LoadingFrame.TweeningScript 
+coroutine.wrap(YJIFJNZ_fake_script)()
+local function GQFYYRB_fake_script() -- LoadingFrame.TweeningScript 
 	local script = Instance.new('LocalScript', LoadingFrame)
 
 	-- Script by Moses_chin2110
@@ -3462,8 +3357,8 @@ local function UXXRGRA_fake_script() -- LoadingFrame.TweeningScript
 	end
 	
 end
-coroutine.wrap(UXXRGRA_fake_script)()
-local function ZIAQZM_fake_script() -- ImageLabel_3.LocalScript 
+coroutine.wrap(GQFYYRB_fake_script)()
+local function PGZTWAX_fake_script() -- ImageLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel_3)
 
 	local Players = game:GetService("Players")
@@ -3478,30 +3373,4 @@ local function ZIAQZM_fake_script() -- ImageLabel_3.LocalScript
 	local imageLabel = script.Parent
 	imageLabel.Image = content
 end
-coroutine.wrap(ZIAQZM_fake_script)()
-local function JYBQ_fake_script() -- NauHub.RightCtrl 
-	local script = Instance.new('LocalScript', NauHub)
-
-	local UIS = game:GetService("UserInputService")
-	local tween = script.Parent.MainFrame
-	
-	UIS.InputBegan:Connect(function(input)
-		if input.KeyCode == Enum.KeyCode.RightControl then
-			    if script.Parent.MainFrame.Visible == true then
-				script.Parent.MainFrame.Visible =  tween:TweenPosition(UDim2.new(0, 634,0, 1100), "Out", "Quint")
-				wait(2)
-				script.Parent.MainFrame.Visible = false
-				
-			else
-				script.Parent.MainFrame.Visible = true tween:TweenPosition(UDim2.new(0, 634,0, 366),"In","Quint")
-				script.Parent.MainFrame.Visible = true
-					
-					
-			   end
-			end
-		end)	
-	
-		
-	
-end
-coroutine.wrap(JYBQ_fake_script)()
+coroutine.wrap(PGZTWAX_fake_script)()
