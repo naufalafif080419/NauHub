@@ -10,7 +10,7 @@ local ImageLabel = Instance.new("ImageLabel")
 local UICorner_2 = Instance.new("UICorner")
 local LineFrame = Instance.new("Frame")
 local UICorner_3 = Instance.new("UICorner")
-local FriendButton = Instance.new("ImageButton")
+local CreditsButton = Instance.new("ImageButton")
 local CornerRadius = Instance.new("UICorner")
 local Background = Instance.new("Frame")
 local CornerRadius_2 = Instance.new("UICorner")
@@ -18,87 +18,83 @@ local ScriptButton = Instance.new("ImageButton")
 local CornerRadius_3 = Instance.new("UICorner")
 local Background_2 = Instance.new("Frame")
 local CornerRadius_4 = Instance.new("UICorner")
-local PowerButton = Instance.new("ImageButton")
-local CornerRadius_5 = Instance.new("UICorner")
-local Background_3 = Instance.new("Frame")
-local CornerRadius_6 = Instance.new("UICorner")
 local HomeButton = Instance.new("ImageButton")
-local Background_4 = Instance.new("Frame")
-local CornerRadius_7 = Instance.new("UICorner")
-local CornerRadius_8 = Instance.new("UICorner")
+local Background_3 = Instance.new("Frame")
+local CornerRadius_5 = Instance.new("UICorner")
+local CornerRadius_6 = Instance.new("UICorner")
 local SettingsButton = Instance.new("ImageButton")
-local CornerRadius_9 = Instance.new("UICorner")
-local Background_5 = Instance.new("Frame")
-local CornerRadius_10 = Instance.new("UICorner")
+local CornerRadius_7 = Instance.new("UICorner")
+local Background_4 = Instance.new("Frame")
+local CornerRadius_8 = Instance.new("UICorner")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 local ScriptFrame = Instance.new("Frame")
 local UICorner_4 = Instance.new("UICorner")
 local ScrollingFrame = Instance.new("ScrollingFrame")
 local OwlHub = Instance.new("ImageButton")
-local Background_6 = Instance.new("Frame")
+local Background_5 = Instance.new("Frame")
+local CornerRadius_9 = Instance.new("UICorner")
+local CornerRadius_10 = Instance.new("UICorner")
 local CornerRadius_11 = Instance.new("UICorner")
-local CornerRadius_12 = Instance.new("UICorner")
-local CornerRadius_13 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
 local UICorner_5 = Instance.new("UICorner")
 local TextLabel_2 = Instance.new("TextLabel")
 local UICorner_6 = Instance.new("UICorner")
 local PetSimXMLScript = Instance.new("ImageButton")
+local Background_6 = Instance.new("Frame")
+local CornerRadius_12 = Instance.new("UICorner")
+local CornerRadius_13 = Instance.new("UICorner")
+local InfiniteYieldScript = Instance.new("ImageButton")
 local Background_7 = Instance.new("Frame")
 local CornerRadius_14 = Instance.new("UICorner")
 local CornerRadius_15 = Instance.new("UICorner")
-local InfiniteYieldScript = Instance.new("ImageButton")
-local Background_8 = Instance.new("Frame")
-local CornerRadius_16 = Instance.new("UICorner")
-local CornerRadius_17 = Instance.new("UICorner")
 local TextLabel_3 = Instance.new("TextLabel")
 local UICorner_7 = Instance.new("UICorner")
 local JailBreakScript = Instance.new("ImageButton")
-local Background_9 = Instance.new("Frame")
-local CornerRadius_18 = Instance.new("UICorner")
-local CornerRadius_19 = Instance.new("UICorner")
+local Background_8 = Instance.new("Frame")
+local CornerRadius_16 = Instance.new("UICorner")
+local CornerRadius_17 = Instance.new("UICorner")
 local TextLabel_4 = Instance.new("TextLabel")
 local UICorner_8 = Instance.new("UICorner")
 local HorificHousingScript = Instance.new("ImageButton")
-local Background_10 = Instance.new("Frame")
-local CornerRadius_20 = Instance.new("UICorner")
-local CornerRadius_21 = Instance.new("UICorner")
+local Background_9 = Instance.new("Frame")
+local CornerRadius_18 = Instance.new("UICorner")
+local CornerRadius_19 = Instance.new("UICorner")
 local TextLabel_5 = Instance.new("TextLabel")
 local UICorner_9 = Instance.new("UICorner")
 local TowerOfHellScript = Instance.new("ImageButton")
-local Background_11 = Instance.new("Frame")
-local CornerRadius_22 = Instance.new("UICorner")
-local CornerRadius_23 = Instance.new("UICorner")
+local Background_10 = Instance.new("Frame")
+local CornerRadius_20 = Instance.new("UICorner")
+local CornerRadius_21 = Instance.new("UICorner")
 local TextLabel_6 = Instance.new("TextLabel")
 local UICorner_10 = Instance.new("UICorner")
 local AdoptMeScript = Instance.new("ImageButton")
-local Background_12 = Instance.new("Frame")
-local CornerRadius_24 = Instance.new("UICorner")
-local CornerRadius_25 = Instance.new("UICorner")
+local Background_11 = Instance.new("Frame")
+local CornerRadius_22 = Instance.new("UICorner")
+local CornerRadius_23 = Instance.new("UICorner")
 local TextLabel_7 = Instance.new("TextLabel")
 local UICorner_11 = Instance.new("UICorner")
 local BaseBattlesScript = Instance.new("ImageButton")
-local Background_13 = Instance.new("Frame")
-local CornerRadius_26 = Instance.new("UICorner")
-local CornerRadius_27 = Instance.new("UICorner")
+local Background_12 = Instance.new("Frame")
+local CornerRadius_24 = Instance.new("UICorner")
+local CornerRadius_25 = Instance.new("UICorner")
 local TextLabel_8 = Instance.new("TextLabel")
 local UICorner_12 = Instance.new("UICorner")
 local ArsenalScript = Instance.new("ImageButton")
-local Background_14 = Instance.new("Frame")
-local CornerRadius_28 = Instance.new("UICorner")
-local CornerRadius_29 = Instance.new("UICorner")
+local Background_13 = Instance.new("Frame")
+local CornerRadius_26 = Instance.new("UICorner")
+local CornerRadius_27 = Instance.new("UICorner")
 local TextLabel_9 = Instance.new("TextLabel")
 local UICorner_13 = Instance.new("UICorner")
 local Mm2EclipseScript = Instance.new("ImageButton")
-local Background_15 = Instance.new("Frame")
-local CornerRadius_30 = Instance.new("UICorner")
-local CornerRadius_31 = Instance.new("UICorner")
+local Background_14 = Instance.new("Frame")
+local CornerRadius_28 = Instance.new("UICorner")
+local CornerRadius_29 = Instance.new("UICorner")
 local TextLabel_10 = Instance.new("TextLabel")
 local UICorner_14 = Instance.new("UICorner")
 local BedwarsScript = Instance.new("ImageButton")
-local Background_16 = Instance.new("Frame")
-local CornerRadius_32 = Instance.new("UICorner")
-local CornerRadius_33 = Instance.new("UICorner")
+local Background_15 = Instance.new("Frame")
+local CornerRadius_30 = Instance.new("UICorner")
+local CornerRadius_31 = Instance.new("UICorner")
 local TextLabel_11 = Instance.new("TextLabel")
 local UICorner_15 = Instance.new("UICorner")
 local HomeFrame = Instance.new("Frame")
@@ -108,26 +104,41 @@ local UICorner_17 = Instance.new("UICorner")
 local ImageLabel_2 = Instance.new("ImageLabel")
 local UICorner_18 = Instance.new("UICorner")
 local Tysnmsn = Instance.new("TextLabel")
-local TextLabel_12 = Instance.new("TextLabel")
+local Today = Instance.new("TextLabel")
 local UICorner_19 = Instance.new("UICorner")
 local Title2 = Instance.new("TextLabel")
+local Date = Instance.new("TextLabel")
+local Time = Instance.new("TextLabel")
 local Pattern = Instance.new("ImageLabel")
 local SettingsFrame = Instance.new("Frame")
 local UICorner_20 = Instance.new("UICorner")
-local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
 local UICorner_21 = Instance.new("UICorner")
-local TextLabel_14 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
 local UICorner_22 = Instance.new("UICorner")
 local TextButton = Instance.new("TextButton")
 local UICorner_23 = Instance.new("UICorner")
 local Title1 = Instance.new("TextLabel")
-local LoadingFrame = Instance.new("Frame")
+local CreditsFrame = Instance.new("Frame")
 local UICorner_24 = Instance.new("UICorner")
+local TextLabel_14 = Instance.new("TextLabel")
+local UICorner_25 = Instance.new("UICorner")
+local TextLabel_15 = Instance.new("TextLabel")
+local UICorner_26 = Instance.new("UICorner")
+local TextLabel_16 = Instance.new("TextLabel")
+local UICorner_27 = Instance.new("UICorner")
+local TextLabel_17 = Instance.new("TextLabel")
+local Time_2 = Instance.new("TextLabel")
+local UICorner_28 = Instance.new("UICorner")
+local FPSCounter = Instance.new("TextLabel")
+local UICorner_29 = Instance.new("UICorner")
+local LoadingFrame = Instance.new("Frame")
+local UICorner_30 = Instance.new("UICorner")
 local Title1_2 = Instance.new("TextLabel")
 local ScriptLoadingButton = Instance.new("TextButton")
-local UICorner_25 = Instance.new("UICorner")
+local UICorner_31 = Instance.new("UICorner")
 local ImageLabel_3 = Instance.new("ImageLabel")
-local UICorner_26 = Instance.new("UICorner")
+local UICorner_32 = Instance.new("UICorner")
 
 --Properties:
 
@@ -138,9 +149,8 @@ NauHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 MainFrame.Name = "MainFrame"
 MainFrame.Parent = NauHub
 MainFrame.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-MainFrame.Position = UDim2.new(0, 43, 0, 70)
+MainFrame.Position = UDim2.new(0, 634, 0, 3000)
 MainFrame.Size = UDim2.new(0, 670, 0, 348)
-MainFrame.Visible = false
 
 UICorner.Parent = MainFrame
 
@@ -162,20 +172,20 @@ LineFrame.Size = UDim2.new(0, 670, 0, 3)
 
 UICorner_3.Parent = LineFrame
 
-FriendButton.Name = "FriendButton"
-FriendButton.Parent = MainFrame
-FriendButton.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
-FriendButton.BorderSizePixel = 0
-FriendButton.Position = UDim2.new(0.163676605, 0, 0.951149404, 0)
-FriendButton.Size = UDim2.new(0, 41, 0, 40)
-FriendButton.Image = "rbxassetid://8866618940"
-FriendButton.ScaleType = Enum.ScaleType.Fit
+CreditsButton.Name = "CreditsButton"
+CreditsButton.Parent = MainFrame
+CreditsButton.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+CreditsButton.BorderSizePixel = 0
+CreditsButton.Position = UDim2.new(0.163676605, 0, 0.951149404, 0)
+CreditsButton.Size = UDim2.new(0, 41, 0, 40)
+CreditsButton.Image = "rbxassetid://8866618940"
+CreditsButton.ScaleType = Enum.ScaleType.Fit
 
 CornerRadius.Name = "CornerRadius"
-CornerRadius.Parent = FriendButton
+CornerRadius.Parent = CreditsButton
 
 Background.Name = "Background"
-Background.Parent = FriendButton
+Background.Parent = CreditsButton
 Background.AnchorPoint = Vector2.new(0.5, 0.5)
 Background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Background.BackgroundTransparency = 1.000
@@ -211,30 +221,6 @@ Background_2.Size = UDim2.new(1, 0, 1, 0)
 CornerRadius_4.Name = "CornerRadius"
 CornerRadius_4.Parent = Background_2
 
-PowerButton.Name = "PowerButton"
-PowerButton.Parent = MainFrame
-PowerButton.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
-PowerButton.BorderSizePixel = 0
-PowerButton.Position = UDim2.new(0.92188555, 0, 0.0258620698, 0)
-PowerButton.Size = UDim2.new(0, 36, 0, 36)
-PowerButton.Image = "rbxassetid://8866670095"
-PowerButton.ScaleType = Enum.ScaleType.Fit
-
-CornerRadius_5.Name = "CornerRadius"
-CornerRadius_5.Parent = PowerButton
-
-Background_3.Name = "Background"
-Background_3.Parent = PowerButton
-Background_3.AnchorPoint = Vector2.new(0.5, 0.5)
-Background_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Background_3.BackgroundTransparency = 1.000
-Background_3.ClipsDescendants = true
-Background_3.Position = UDim2.new(0.5, 0, 0.5, 0)
-Background_3.Size = UDim2.new(1, 0, 1, 0)
-
-CornerRadius_6.Name = "CornerRadius"
-CornerRadius_6.Parent = Background_3
-
 HomeButton.Name = "HomeButton"
 HomeButton.Parent = MainFrame
 HomeButton.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
@@ -244,20 +230,20 @@ HomeButton.Size = UDim2.new(0, 42, 0, 40)
 HomeButton.Image = "rbxassetid://8866473699"
 HomeButton.ScaleType = Enum.ScaleType.Fit
 
-Background_4.Name = "Background"
-Background_4.Parent = HomeButton
-Background_4.AnchorPoint = Vector2.new(0.5, 0.5)
-Background_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Background_4.BackgroundTransparency = 1.000
-Background_4.ClipsDescendants = true
-Background_4.Position = UDim2.new(0.5, 0, 0.5, 0)
-Background_4.Size = UDim2.new(1, 0, 1, 0)
+Background_3.Name = "Background"
+Background_3.Parent = HomeButton
+Background_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Background_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Background_3.BackgroundTransparency = 1.000
+Background_3.ClipsDescendants = true
+Background_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+Background_3.Size = UDim2.new(1, 0, 1, 0)
 
-CornerRadius_7.Name = "CornerRadius"
-CornerRadius_7.Parent = Background_4
+CornerRadius_5.Name = "CornerRadius"
+CornerRadius_5.Parent = Background_3
 
-CornerRadius_8.Name = "CornerRadius"
-CornerRadius_8.Parent = HomeButton
+CornerRadius_6.Name = "CornerRadius"
+CornerRadius_6.Parent = HomeButton
 
 SettingsButton.Name = "SettingsButton"
 SettingsButton.Parent = MainFrame
@@ -268,20 +254,20 @@ SettingsButton.Size = UDim2.new(0, 41, 0, 40)
 SettingsButton.Image = "rbxassetid://8866636374"
 SettingsButton.ScaleType = Enum.ScaleType.Fit
 
-CornerRadius_9.Name = "CornerRadius"
-CornerRadius_9.Parent = SettingsButton
+CornerRadius_7.Name = "CornerRadius"
+CornerRadius_7.Parent = SettingsButton
 
-Background_5.Name = "Background"
-Background_5.Parent = SettingsButton
-Background_5.AnchorPoint = Vector2.new(0.5, 0.5)
-Background_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Background_5.BackgroundTransparency = 1.000
-Background_5.ClipsDescendants = true
-Background_5.Position = UDim2.new(0.5, 0, 0.5, 0)
-Background_5.Size = UDim2.new(1, 0, 1, 0)
+Background_4.Name = "Background"
+Background_4.Parent = SettingsButton
+Background_4.AnchorPoint = Vector2.new(0.5, 0.5)
+Background_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Background_4.BackgroundTransparency = 1.000
+Background_4.ClipsDescendants = true
+Background_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+Background_4.Size = UDim2.new(1, 0, 1, 0)
 
-CornerRadius_10.Name = "CornerRadius"
-CornerRadius_10.Parent = Background_5
+CornerRadius_8.Name = "CornerRadius"
+CornerRadius_8.Parent = Background_4
 
 UIAspectRatioConstraint.Parent = MainFrame
 UIAspectRatioConstraint.AspectRatio = 1.925
@@ -311,23 +297,23 @@ OwlHub.Size = UDim2.new(0, 96, 0, 89)
 OwlHub.Image = "rbxassetid://8859296257"
 OwlHub.ScaleType = Enum.ScaleType.Fit
 
-Background_6.Name = "Background"
-Background_6.Parent = OwlHub
-Background_6.AnchorPoint = Vector2.new(0.5, 0.5)
-Background_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Background_6.BackgroundTransparency = 1.000
-Background_6.ClipsDescendants = true
-Background_6.Position = UDim2.new(0.5, 0, 0.5, 0)
-Background_6.Size = UDim2.new(0, 96, 0, 89)
+Background_5.Name = "Background"
+Background_5.Parent = OwlHub
+Background_5.AnchorPoint = Vector2.new(0.5, 0.5)
+Background_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Background_5.BackgroundTransparency = 1.000
+Background_5.ClipsDescendants = true
+Background_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+Background_5.Size = UDim2.new(0, 96, 0, 89)
+
+CornerRadius_9.Name = "CornerRadius"
+CornerRadius_9.Parent = Background_5
+
+CornerRadius_10.Name = "CornerRadius"
+CornerRadius_10.Parent = OwlHub
 
 CornerRadius_11.Name = "CornerRadius"
-CornerRadius_11.Parent = Background_6
-
-CornerRadius_12.Name = "CornerRadius"
-CornerRadius_12.Parent = OwlHub
-
-CornerRadius_13.Name = "CornerRadius"
-CornerRadius_13.Parent = ScrollingFrame
+CornerRadius_11.Parent = ScrollingFrame
 
 TextLabel.Parent = ScrollingFrame
 TextLabel.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
@@ -362,8 +348,32 @@ PetSimXMLScript.Size = UDim2.new(0, 96, 0, 89)
 PetSimXMLScript.Image = "rbxassetid://8859117506"
 PetSimXMLScript.ScaleType = Enum.ScaleType.Fit
 
+Background_6.Name = "Background"
+Background_6.Parent = PetSimXMLScript
+Background_6.AnchorPoint = Vector2.new(0.5, 0.5)
+Background_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Background_6.BackgroundTransparency = 1.000
+Background_6.ClipsDescendants = true
+Background_6.Position = UDim2.new(0.5, 0, 0.5, 0)
+Background_6.Size = UDim2.new(0, 96, 0, 89)
+
+CornerRadius_12.Name = "CornerRadius"
+CornerRadius_12.Parent = Background_6
+
+CornerRadius_13.Name = "CornerRadius"
+CornerRadius_13.Parent = PetSimXMLScript
+
+InfiniteYieldScript.Name = "InfiniteYield Script"
+InfiniteYieldScript.Parent = ScrollingFrame
+InfiniteYieldScript.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYieldScript.BackgroundTransparency = 1.000
+InfiniteYieldScript.Position = UDim2.new(0.452168822, 0, -0.000351682422, 0)
+InfiniteYieldScript.Size = UDim2.new(0, 96, 0, 89)
+InfiniteYieldScript.Image = "rbxassetid://8864370737"
+InfiniteYieldScript.ScaleType = Enum.ScaleType.Fit
+
 Background_7.Name = "Background"
-Background_7.Parent = PetSimXMLScript
+Background_7.Parent = InfiniteYieldScript
 Background_7.AnchorPoint = Vector2.new(0.5, 0.5)
 Background_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Background_7.BackgroundTransparency = 1.000
@@ -375,31 +385,7 @@ CornerRadius_14.Name = "CornerRadius"
 CornerRadius_14.Parent = Background_7
 
 CornerRadius_15.Name = "CornerRadius"
-CornerRadius_15.Parent = PetSimXMLScript
-
-InfiniteYieldScript.Name = "InfiniteYield Script"
-InfiniteYieldScript.Parent = ScrollingFrame
-InfiniteYieldScript.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-InfiniteYieldScript.BackgroundTransparency = 1.000
-InfiniteYieldScript.Position = UDim2.new(0.452168822, 0, -0.000351682422, 0)
-InfiniteYieldScript.Size = UDim2.new(0, 96, 0, 89)
-InfiniteYieldScript.Image = "rbxassetid://8864370737"
-InfiniteYieldScript.ScaleType = Enum.ScaleType.Fit
-
-Background_8.Name = "Background"
-Background_8.Parent = InfiniteYieldScript
-Background_8.AnchorPoint = Vector2.new(0.5, 0.5)
-Background_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Background_8.BackgroundTransparency = 1.000
-Background_8.ClipsDescendants = true
-Background_8.Position = UDim2.new(0.5, 0, 0.5, 0)
-Background_8.Size = UDim2.new(0, 96, 0, 89)
-
-CornerRadius_16.Name = "CornerRadius"
-CornerRadius_16.Parent = Background_8
-
-CornerRadius_17.Name = "CornerRadius"
-CornerRadius_17.Parent = InfiniteYieldScript
+CornerRadius_15.Parent = InfiniteYieldScript
 
 TextLabel_3.Parent = ScrollingFrame
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
@@ -422,20 +408,20 @@ JailBreakScript.Size = UDim2.new(0, 96, 0, 89)
 JailBreakScript.Image = "rbxassetid://8864527951"
 JailBreakScript.ScaleType = Enum.ScaleType.Fit
 
-Background_9.Name = "Background"
-Background_9.Parent = JailBreakScript
-Background_9.AnchorPoint = Vector2.new(0.5, 0.5)
-Background_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Background_9.BackgroundTransparency = 1.000
-Background_9.ClipsDescendants = true
-Background_9.Position = UDim2.new(0.5, 0, 0.5, 0)
-Background_9.Size = UDim2.new(0, 96, 0, 89)
+Background_8.Name = "Background"
+Background_8.Parent = JailBreakScript
+Background_8.AnchorPoint = Vector2.new(0.5, 0.5)
+Background_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Background_8.BackgroundTransparency = 1.000
+Background_8.ClipsDescendants = true
+Background_8.Position = UDim2.new(0.5, 0, 0.5, 0)
+Background_8.Size = UDim2.new(0, 96, 0, 89)
 
-CornerRadius_18.Name = "CornerRadius"
-CornerRadius_18.Parent = Background_9
+CornerRadius_16.Name = "CornerRadius"
+CornerRadius_16.Parent = Background_8
 
-CornerRadius_19.Name = "CornerRadius"
-CornerRadius_19.Parent = JailBreakScript
+CornerRadius_17.Name = "CornerRadius"
+CornerRadius_17.Parent = JailBreakScript
 
 TextLabel_4.Parent = ScrollingFrame
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
@@ -458,20 +444,20 @@ HorificHousingScript.Size = UDim2.new(0, 96, 0, 89)
 HorificHousingScript.Image = "rbxassetid://8864588379"
 HorificHousingScript.ScaleType = Enum.ScaleType.Fit
 
-Background_10.Name = "Background"
-Background_10.Parent = HorificHousingScript
-Background_10.AnchorPoint = Vector2.new(0.5, 0.5)
-Background_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Background_10.BackgroundTransparency = 1.000
-Background_10.ClipsDescendants = true
-Background_10.Position = UDim2.new(0.5, 0, 0.5, 0)
-Background_10.Size = UDim2.new(0, 96, 0, 89)
+Background_9.Name = "Background"
+Background_9.Parent = HorificHousingScript
+Background_9.AnchorPoint = Vector2.new(0.5, 0.5)
+Background_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Background_9.BackgroundTransparency = 1.000
+Background_9.ClipsDescendants = true
+Background_9.Position = UDim2.new(0.5, 0, 0.5, 0)
+Background_9.Size = UDim2.new(0, 96, 0, 89)
 
-CornerRadius_20.Name = "CornerRadius"
-CornerRadius_20.Parent = Background_10
+CornerRadius_18.Name = "CornerRadius"
+CornerRadius_18.Parent = Background_9
 
-CornerRadius_21.Name = "CornerRadius"
-CornerRadius_21.Parent = HorificHousingScript
+CornerRadius_19.Name = "CornerRadius"
+CornerRadius_19.Parent = HorificHousingScript
 
 TextLabel_5.Parent = ScrollingFrame
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
@@ -495,20 +481,20 @@ TowerOfHellScript.Size = UDim2.new(0, 96, 0, 89)
 TowerOfHellScript.Image = "rbxassetid://8864737489"
 TowerOfHellScript.ScaleType = Enum.ScaleType.Fit
 
-Background_11.Name = "Background"
-Background_11.Parent = TowerOfHellScript
-Background_11.AnchorPoint = Vector2.new(0.5, 0.5)
-Background_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Background_11.BackgroundTransparency = 1.000
-Background_11.ClipsDescendants = true
-Background_11.Position = UDim2.new(0.5, 0, 0.5, 0)
-Background_11.Size = UDim2.new(0, 96, 0, 89)
+Background_10.Name = "Background"
+Background_10.Parent = TowerOfHellScript
+Background_10.AnchorPoint = Vector2.new(0.5, 0.5)
+Background_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Background_10.BackgroundTransparency = 1.000
+Background_10.ClipsDescendants = true
+Background_10.Position = UDim2.new(0.5, 0, 0.5, 0)
+Background_10.Size = UDim2.new(0, 96, 0, 89)
 
-CornerRadius_22.Name = "CornerRadius"
-CornerRadius_22.Parent = Background_11
+CornerRadius_20.Name = "CornerRadius"
+CornerRadius_20.Parent = Background_10
 
-CornerRadius_23.Name = "CornerRadius"
-CornerRadius_23.Parent = TowerOfHellScript
+CornerRadius_21.Name = "CornerRadius"
+CornerRadius_21.Parent = TowerOfHellScript
 
 TextLabel_6.Parent = ScrollingFrame
 TextLabel_6.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
@@ -531,20 +517,20 @@ AdoptMeScript.Size = UDim2.new(0, 96, 0, 89)
 AdoptMeScript.Image = "rbxassetid://8864820567"
 AdoptMeScript.ScaleType = Enum.ScaleType.Fit
 
-Background_12.Name = "Background"
-Background_12.Parent = AdoptMeScript
-Background_12.AnchorPoint = Vector2.new(0.5, 0.5)
-Background_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Background_12.BackgroundTransparency = 1.000
-Background_12.ClipsDescendants = true
-Background_12.Position = UDim2.new(0.5, 0, 0.5, 0)
-Background_12.Size = UDim2.new(0, 96, 0, 89)
+Background_11.Name = "Background"
+Background_11.Parent = AdoptMeScript
+Background_11.AnchorPoint = Vector2.new(0.5, 0.5)
+Background_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Background_11.BackgroundTransparency = 1.000
+Background_11.ClipsDescendants = true
+Background_11.Position = UDim2.new(0.5, 0, 0.5, 0)
+Background_11.Size = UDim2.new(0, 96, 0, 89)
 
-CornerRadius_24.Name = "CornerRadius"
-CornerRadius_24.Parent = Background_12
+CornerRadius_22.Name = "CornerRadius"
+CornerRadius_22.Parent = Background_11
 
-CornerRadius_25.Name = "CornerRadius"
-CornerRadius_25.Parent = AdoptMeScript
+CornerRadius_23.Name = "CornerRadius"
+CornerRadius_23.Parent = AdoptMeScript
 
 TextLabel_7.Parent = ScrollingFrame
 TextLabel_7.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
@@ -567,20 +553,20 @@ BaseBattlesScript.Size = UDim2.new(0, 96, 0, 89)
 BaseBattlesScript.Image = "rbxassetid://8867557241"
 BaseBattlesScript.ScaleType = Enum.ScaleType.Fit
 
-Background_13.Name = "Background"
-Background_13.Parent = BaseBattlesScript
-Background_13.AnchorPoint = Vector2.new(0.5, 0.5)
-Background_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Background_13.BackgroundTransparency = 1.000
-Background_13.ClipsDescendants = true
-Background_13.Position = UDim2.new(0.5, 0, 0.5, 0)
-Background_13.Size = UDim2.new(0, 96, 0, 89)
+Background_12.Name = "Background"
+Background_12.Parent = BaseBattlesScript
+Background_12.AnchorPoint = Vector2.new(0.5, 0.5)
+Background_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Background_12.BackgroundTransparency = 1.000
+Background_12.ClipsDescendants = true
+Background_12.Position = UDim2.new(0.5, 0, 0.5, 0)
+Background_12.Size = UDim2.new(0, 96, 0, 89)
 
-CornerRadius_26.Name = "CornerRadius"
-CornerRadius_26.Parent = Background_13
+CornerRadius_24.Name = "CornerRadius"
+CornerRadius_24.Parent = Background_12
 
-CornerRadius_27.Name = "CornerRadius"
-CornerRadius_27.Parent = BaseBattlesScript
+CornerRadius_25.Name = "CornerRadius"
+CornerRadius_25.Parent = BaseBattlesScript
 
 TextLabel_8.Parent = ScrollingFrame
 TextLabel_8.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
@@ -603,20 +589,20 @@ ArsenalScript.Size = UDim2.new(0, 96, 0, 89)
 ArsenalScript.Image = "rbxassetid://8867589868"
 ArsenalScript.ScaleType = Enum.ScaleType.Fit
 
-Background_14.Name = "Background"
-Background_14.Parent = ArsenalScript
-Background_14.AnchorPoint = Vector2.new(0.5, 0.5)
-Background_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Background_14.BackgroundTransparency = 1.000
-Background_14.ClipsDescendants = true
-Background_14.Position = UDim2.new(0.5, 0, 0.5, 0)
-Background_14.Size = UDim2.new(0, 96, 0, 89)
+Background_13.Name = "Background"
+Background_13.Parent = ArsenalScript
+Background_13.AnchorPoint = Vector2.new(0.5, 0.5)
+Background_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Background_13.BackgroundTransparency = 1.000
+Background_13.ClipsDescendants = true
+Background_13.Position = UDim2.new(0.5, 0, 0.5, 0)
+Background_13.Size = UDim2.new(0, 96, 0, 89)
 
-CornerRadius_28.Name = "CornerRadius"
-CornerRadius_28.Parent = Background_14
+CornerRadius_26.Name = "CornerRadius"
+CornerRadius_26.Parent = Background_13
 
-CornerRadius_29.Name = "CornerRadius"
-CornerRadius_29.Parent = ArsenalScript
+CornerRadius_27.Name = "CornerRadius"
+CornerRadius_27.Parent = ArsenalScript
 
 TextLabel_9.Parent = ScrollingFrame
 TextLabel_9.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
@@ -639,20 +625,20 @@ Mm2EclipseScript.Size = UDim2.new(0, 96, 0, 89)
 Mm2EclipseScript.Image = "rbxassetid://8863870610"
 Mm2EclipseScript.ScaleType = Enum.ScaleType.Fit
 
-Background_15.Name = "Background"
-Background_15.Parent = Mm2EclipseScript
-Background_15.AnchorPoint = Vector2.new(0.5, 0.5)
-Background_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Background_15.BackgroundTransparency = 1.000
-Background_15.ClipsDescendants = true
-Background_15.Position = UDim2.new(0.5, 0, 0.5, 0)
-Background_15.Size = UDim2.new(0, 96, 0, 89)
+Background_14.Name = "Background"
+Background_14.Parent = Mm2EclipseScript
+Background_14.AnchorPoint = Vector2.new(0.5, 0.5)
+Background_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Background_14.BackgroundTransparency = 1.000
+Background_14.ClipsDescendants = true
+Background_14.Position = UDim2.new(0.5, 0, 0.5, 0)
+Background_14.Size = UDim2.new(0, 96, 0, 89)
 
-CornerRadius_30.Name = "CornerRadius"
-CornerRadius_30.Parent = Background_15
+CornerRadius_28.Name = "CornerRadius"
+CornerRadius_28.Parent = Background_14
 
-CornerRadius_31.Name = "CornerRadius"
-CornerRadius_31.Parent = Mm2EclipseScript
+CornerRadius_29.Name = "CornerRadius"
+CornerRadius_29.Parent = Mm2EclipseScript
 
 TextLabel_10.Parent = ScrollingFrame
 TextLabel_10.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
@@ -675,20 +661,20 @@ BedwarsScript.Size = UDim2.new(0, 96, 0, 89)
 BedwarsScript.Image = "rbxassetid://8867686303"
 BedwarsScript.ScaleType = Enum.ScaleType.Fit
 
-Background_16.Name = "Background"
-Background_16.Parent = BedwarsScript
-Background_16.AnchorPoint = Vector2.new(0.5, 0.5)
-Background_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Background_16.BackgroundTransparency = 1.000
-Background_16.ClipsDescendants = true
-Background_16.Position = UDim2.new(0.5, 0, 0.5, 0)
-Background_16.Size = UDim2.new(0, 96, 0, 89)
+Background_15.Name = "Background"
+Background_15.Parent = BedwarsScript
+Background_15.AnchorPoint = Vector2.new(0.5, 0.5)
+Background_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Background_15.BackgroundTransparency = 1.000
+Background_15.ClipsDescendants = true
+Background_15.Position = UDim2.new(0.5, 0, 0.5, 0)
+Background_15.Size = UDim2.new(0, 96, 0, 89)
 
-CornerRadius_32.Name = "CornerRadius"
-CornerRadius_32.Parent = Background_16
+CornerRadius_30.Name = "CornerRadius"
+CornerRadius_30.Parent = Background_15
 
-CornerRadius_33.Name = "CornerRadius"
-CornerRadius_33.Parent = BedwarsScript
+CornerRadius_31.Name = "CornerRadius"
+CornerRadius_31.Parent = BedwarsScript
 
 TextLabel_11.Parent = ScrollingFrame
 TextLabel_11.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
@@ -707,7 +693,6 @@ HomeFrame.Parent = MainFrame
 HomeFrame.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
 HomeFrame.Position = UDim2.new(0.0268656723, 0, 0.18965517, 0)
 HomeFrame.Size = UDim2.new(0, 641, 0, 265)
-HomeFrame.Visible = false
 
 UICorner_16.Parent = HomeFrame
 
@@ -741,17 +726,19 @@ Tysnmsn.TextScaled = true
 Tysnmsn.TextSize = 14.000
 Tysnmsn.TextWrapped = true
 
-TextLabel_12.Parent = HomeFrame
-TextLabel_12.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
-TextLabel_12.Position = UDim2.new(0.529850721, 0, 0.0283243358, 0)
-TextLabel_12.Size = UDim2.new(0, 290, 0, 239)
-TextLabel_12.Font = Enum.Font.RobotoMono
-TextLabel_12.Text = "New Updates:\\n- New Script Hub\\n- Better Ui"
-TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_12.TextSize = 40.000
-TextLabel_12.TextWrapped = true
+Today.Name = "Today"
+Today.Parent = HomeFrame
+Today.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
+Today.Position = UDim2.new(0.528290629, 0, 0.0207771733, 0)
+Today.Size = UDim2.new(0, 290, 0, 253)
+Today.Font = Enum.Font.RobotoMono
+Today.LineHeight = 3.000
+Today.Text = "Today Is"
+Today.TextColor3 = Color3.fromRGB(255, 255, 255)
+Today.TextSize = 30.000
+Today.TextWrapped = true
 
-UICorner_19.Parent = TextLabel_12
+UICorner_19.Parent = Today
 
 Title2.Name = "Title2"
 Title2.Parent = HomeFrame
@@ -764,6 +751,32 @@ Title2.Text = "PlayerName!"
 Title2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title2.TextSize = 14.000
 Title2.TextWrapped = true
+
+Date.Name = "Date"
+Date.Parent = HomeFrame
+Date.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
+Date.BackgroundTransparency = 1.000
+Date.Position = UDim2.new(0.528290629, 0, 0.160399809, 0)
+Date.Size = UDim2.new(0, 290, 0, 239)
+Date.Font = Enum.Font.RobotoMono
+Date.LineHeight = 3.000
+Date.Text = "Jan/1/2022"
+Date.TextColor3 = Color3.fromRGB(255, 255, 255)
+Date.TextSize = 20.000
+Date.TextWrapped = true
+
+Time.Name = "Time"
+Time.Parent = HomeFrame
+Time.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
+Time.BackgroundTransparency = 1.000
+Time.Position = UDim2.new(0.528290629, 0, 0.247192264, 0)
+Time.Size = UDim2.new(0, 290, 0, 239)
+Time.Font = Enum.Font.RobotoMono
+Time.LineHeight = 3.000
+Time.Text = "00:00:00"
+Time.TextColor3 = Color3.fromRGB(255, 255, 255)
+Time.TextSize = 20.000
+Time.TextWrapped = true
 
 Pattern.Name = "Pattern"
 Pattern.Parent = MainFrame
@@ -788,30 +801,30 @@ SettingsFrame.Visible = false
 
 UICorner_20.Parent = SettingsFrame
 
+TextLabel_12.Parent = SettingsFrame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextLabel_12.Position = UDim2.new(0.376146793, 0, 0.0392156877, 0)
+TextLabel_12.Size = UDim2.new(0, 162, 0, 34)
+TextLabel_12.Font = Enum.Font.Cartoon
+TextLabel_12.Text = "Settings:"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
+
+UICorner_21.Parent = TextLabel_12
+
 TextLabel_13.Parent = SettingsFrame
-TextLabel_13.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-TextLabel_13.Position = UDim2.new(0.376146793, 0, 0.0392156877, 0)
-TextLabel_13.Size = UDim2.new(0, 162, 0, 34)
-TextLabel_13.Font = Enum.Font.Cartoon
-TextLabel_13.Text = "Settings:"
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel_13.Position = UDim2.new(0, 0, 0.23137255, 0)
+TextLabel_13.Size = UDim2.new(0, 152, 0, 46)
+TextLabel_13.Font = Enum.Font.LuckiestGuy
+TextLabel_13.Text = "Pattern:"
 TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_13.TextScaled = true
-TextLabel_13.TextSize = 14.000
+TextLabel_13.TextSize = 30.000
 TextLabel_13.TextWrapped = true
 
-UICorner_21.Parent = TextLabel_13
-
-TextLabel_14.Parent = SettingsFrame
-TextLabel_14.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-TextLabel_14.Position = UDim2.new(0, 0, 0.23137255, 0)
-TextLabel_14.Size = UDim2.new(0, 152, 0, 46)
-TextLabel_14.Font = Enum.Font.LuckiestGuy
-TextLabel_14.Text = "Pattern:"
-TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_14.TextSize = 30.000
-TextLabel_14.TextWrapped = true
-
-UICorner_22.Parent = TextLabel_14
+UICorner_22.Parent = TextLabel_13
 
 TextButton.Parent = SettingsFrame
 TextButton.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
@@ -839,6 +852,90 @@ Title1.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title1.TextSize = 14.000
 Title1.TextWrapped = true
 
+CreditsFrame.Name = "CreditsFrame"
+CreditsFrame.Parent = MainFrame
+CreditsFrame.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+CreditsFrame.Position = UDim2.new(0.0134328362, 0, 0.186781615, 0)
+CreditsFrame.Size = UDim2.new(0, 654, 0, 266)
+CreditsFrame.Visible = false
+
+UICorner_24.Parent = CreditsFrame
+
+TextLabel_14.Parent = CreditsFrame
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+TextLabel_14.Position = UDim2.new(0.00764526427, 0, 0.0225563943, 0)
+TextLabel_14.Size = UDim2.new(0, 123, 0, 38)
+TextLabel_14.Font = Enum.Font.SourceSans
+TextLabel_14.Text = "Credits:  "
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextWrapped = true
+
+UICorner_25.Parent = TextLabel_14
+
+TextLabel_15.Parent = CreditsFrame
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Position = UDim2.new(0.0107033644, 0, 0.165413529, 0)
+TextLabel_15.Size = UDim2.new(0, 509, 0, 38)
+TextLabel_15.Font = Enum.Font.SourceSans
+TextLabel_15.Text = "-naufalafif080419 Better UI And Nau Hub Scripter"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextScaled = true
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextWrapped = true
+
+UICorner_26.Parent = TextLabel_15
+
+TextLabel_16.Parent = CreditsFrame
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(0.0107033644, 0, 0.36090228, 0)
+TextLabel_16.Size = UDim2.new(0, 509, 0, 38)
+TextLabel_16.Font = Enum.Font.SourceSans
+TextLabel_16.Text = "-And Another Developer's Help Me To Create This Exploit Script"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextScaled = true
+TextLabel_16.TextSize = 14.000
+TextLabel_16.TextWrapped = true
+
+UICorner_27.Parent = TextLabel_16
+
+TextLabel_17.Parent = MainFrame
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(0.700000048, 0, 0.951149404, 0)
+TextLabel_17.Size = UDim2.new(0, 200, 0, 17)
+TextLabel_17.Font = Enum.Font.SourceSans
+TextLabel_17.Text = "Press Right Ctrl To OPEN And CLOSE Gui"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 13.000
+
+Time_2.Name = "Time"
+Time_2.Parent = MainFrame
+Time_2.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+Time_2.Position = UDim2.new(0.820895493, 0, 0.0344827585, 0)
+Time_2.Size = UDim2.new(0, 109, 0, 35)
+Time_2.Font = Enum.Font.Nunito
+Time_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Time_2.TextSize = 20.000
+Time_2.TextWrapped = true
+
+UICorner_28.Parent = Time_2
+
+FPSCounter.Name = "FPS Counter"
+FPSCounter.Parent = MainFrame
+FPSCounter.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+FPSCounter.Position = UDim2.new(0.628358185, 0, 0.0373563208, 0)
+FPSCounter.Size = UDim2.new(0, 109, 0, 35)
+FPSCounter.Font = Enum.Font.Nunito
+FPSCounter.TextColor3 = Color3.fromRGB(255, 255, 255)
+FPSCounter.TextSize = 20.000
+FPSCounter.TextWrapped = true
+
+UICorner_29.Parent = FPSCounter
+
 LoadingFrame.Name = "LoadingFrame"
 LoadingFrame.Parent = NauHub
 LoadingFrame.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -846,7 +943,7 @@ LoadingFrame.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 LoadingFrame.Position = UDim2.new(0.5, 0, 3, 0)
 LoadingFrame.Size = UDim2.new(0, 637, 0, 451)
 
-UICorner_24.Parent = LoadingFrame
+UICorner_30.Parent = LoadingFrame
 
 Title1_2.Name = "Title1"
 Title1_2.Parent = LoadingFrame
@@ -874,7 +971,7 @@ ScriptLoadingButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 ScriptLoadingButton.TextSize = 40.000
 ScriptLoadingButton.TextWrapped = true
 
-UICorner_25.Parent = ScriptLoadingButton
+UICorner_31.Parent = ScriptLoadingButton
 
 ImageLabel_3.Parent = LoadingFrame
 ImageLabel_3.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
@@ -883,12 +980,12 @@ ImageLabel_3.Size = UDim2.new(0, 113, 0, 117)
 ImageLabel_3.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
 ImageLabel_3.ScaleType = Enum.ScaleType.Fit
 
-UICorner_26.CornerRadius = UDim.new(1, 0)
-UICorner_26.Parent = ImageLabel_3
+UICorner_32.CornerRadius = UDim.new(1, 0)
+UICorner_32.Parent = ImageLabel_3
 
 -- Scripts:
 
-local function KJUS_fake_script() -- ImageLabel.LocalScript 
+local function PLMV_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	local Players = game:GetService("Players")
@@ -903,17 +1000,17 @@ local function KJUS_fake_script() -- ImageLabel.LocalScript
 	local imageLabel = script.Parent
 	imageLabel.Image = content
 end
-coroutine.wrap(KJUS_fake_script)()
-local function OCLVFT_fake_script() -- MainFrame.LocalScript 
+coroutine.wrap(PLMV_fake_script)()
+local function BJXLXK_fake_script() -- MainFrame.PlrWelcome 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local PlayerName = game.Players.LocalPlayer.Name
 	
 	script.Parent.Title1.Text = 'Hello, And Welcome To Nau Hub '..PlayerName..'!'
 end
-coroutine.wrap(OCLVFT_fake_script)()
-local function UPSPGEF_fake_script() -- FriendButton.RippleEffect 
-	local script = Instance.new('LocalScript', FriendButton)
+coroutine.wrap(BJXLXK_fake_script)()
+local function RPMQFUZ_fake_script() -- CreditsButton.RippleEffect 
+	local script = Instance.new('LocalScript', CreditsButton)
 
 	local Players = game:GetService("Players")
 	local RunService = game:GetService("RunService")
@@ -1056,18 +1153,31 @@ local function UPSPGEF_fake_script() -- FriendButton.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(UPSPGEF_fake_script)()
-local function AJFSV_fake_script() -- ScriptButton.LocalScript 
+coroutine.wrap(RPMQFUZ_fake_script)()
+local function RUOP_fake_script() -- CreditsButton.CreditsButtonScript 
+	local script = Instance.new('LocalScript', CreditsButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.ScriptFrame.Visible = false
+		script.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.SettingsFrame.Visible = false
+		script.Parent.Parent.CreditsFrame.Visible = true
+		
+	end)
+end
+coroutine.wrap(RUOP_fake_script)()
+local function LJVMV_fake_script() -- ScriptButton.LocalScript 
 	local script = Instance.new('LocalScript', ScriptButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.ScriptFrame.Visible = true
 		script.Parent.Parent.HomeFrame.Visible = false
 		script.Parent.Parent.SettingsFrame.Visible = false
+		script.Parent.Parent.CreditsFrame.Visible = false
 	end)
 end
-coroutine.wrap(AJFSV_fake_script)()
-local function GMBUK_fake_script() -- ScriptButton.RippleEffect 
+coroutine.wrap(LJVMV_fake_script)()
+local function GYVNP_fake_script() -- ScriptButton.RippleEffect 
 	local script = Instance.new('LocalScript', ScriptButton)
 
 	local Players = game:GetService("Players")
@@ -1211,153 +1321,8 @@ local function GMBUK_fake_script() -- ScriptButton.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(GMBUK_fake_script)()
-local function OPIB_fake_script() -- PowerButton.RippleEffect 
-	local script = Instance.new('LocalScript', PowerButton)
-
-	local Players = game:GetService("Players")
-	local RunService = game:GetService("RunService")
-	local TweenService = game:GetService("TweenService")
-	
-	local mouse = Players.LocalPlayer:GetMouse()
-	
-	local button = script.Parent
-	local background = button:WaitForChild("Background")
-	
-	local active = false
-	local hovering = false
-	
-	local function CreateCircle()
-		local circle = Instance.new("Frame")
-		local cornerRadius = Instance.new("UICorner")
-		
-		circle.AnchorPoint = Vector2.new(0.5, 0.5)
-		circle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-		circle.Size = UDim2.new(0, 0, 0, 0)
-		
-		cornerRadius.CornerRadius = UDim.new(0.5, 0)
-		cornerRadius.Parent = circle
-		
-		return circle
-	end
-	
-	local function CalculateDistance(pointA, pointB)
-		return math.sqrt(((pointB.X - pointA.X) ^ 2) + ((pointB.Y - pointA.Y) ^ 2))
-	end
-	
-	local function OnMouseButton1Down()
-		active = true
-		
-		local buttonAbsoluteSize = button.AbsoluteSize
-		local buttonAbsolutePosition = button.AbsolutePosition
-		
-		local mouseAbsolutePosition = Vector2.new(mouse.X, mouse.Y)
-		local mouseRelativePosition = (mouseAbsolutePosition - buttonAbsolutePosition)
-		
-		local circle = CreateCircle()
-		
-		circle.BackgroundTransparency = 0.84
-		circle.Position = UDim2.new(0, mouseRelativePosition.X, 0, mouseRelativePosition.Y)
-		circle.Parent = background
-		
-		local topLeft = CalculateDistance(mouseRelativePosition, Vector2.new(0, 0))
-		local topRight = CalculateDistance(mouseRelativePosition, Vector2.new(buttonAbsoluteSize.X, 0))
-		local bottomRight = CalculateDistance(mouseRelativePosition, buttonAbsoluteSize)
-		local bottomLeft = CalculateDistance(mouseRelativePosition, Vector2.new(0, buttonAbsoluteSize.Y))
-		
-		local size = math.max(topLeft, topRight, bottomRight, bottomLeft) * 2
-		
-		local tweenTime = 0.5 -- seconds
-		local startedTimestamp
-		local completed = false
-		
-		local expand = TweenService:Create(
-			circle,
-			TweenInfo.new(
-				tweenTime,
-				Enum.EasingStyle.Linear,
-				Enum.EasingDirection.Out
-			),
-			{ Size = UDim2.new(0, size, 0, size) }
-		)
-		
-		local connection
-		connection = RunService.RenderStepped:Connect(function()
-			if not active then
-				connection:Disconnect()
-				
-				local defaultTime = (tweenTime / 3)
-				local timeRemaining = tweenTime - (os.time() - startedTimestamp)
-				local newTweenTime = not completed and timeRemaining > defaultTime and timeRemaining or defaultTime
-				
-				local fadeOut = TweenService:Create(
-					circle,
-					TweenInfo.new(
-						newTweenTime,
-						Enum.EasingStyle.Linear,
-						Enum.EasingDirection.Out
-					),
-					{ BackgroundTransparency = 1 }
-				)
-				
-				fadeOut:Play()
-				fadeOut.Completed:Wait()
-				
-				circle:Destroy()
-			end
-		end)
-		
-		expand:Play()
-		startedTimestamp = os.time()
-		expand.Completed:Wait()
-		
-		completed = true
-	end
-	
-	local function OnMouseButton1Up()
-		active = false
-	end
-	
-	local function OnMouseEnter()
-		hovering = true
-		
-		local tweenTime = 0.125
-		local tweenInfo = TweenInfo.new(
-			tweenTime,
-			Enum.EasingStyle.Linear,
-			Enum.EasingDirection.Out
-		)
-		
-		local backgroundFadeIn = TweenService:Create(background, tweenInfo, { BackgroundTransparency = 0.95 })
-		local borderFadeIn = TweenService:Create(background.Border, tweenInfo, { Transparency = 0 })
-		
-		backgroundFadeIn:Play()
-		borderFadeIn:Play()
-		
-		backgroundFadeIn.Completed:Wait()
-		
-		local backgroundFadeOut = TweenService:Create(background, tweenInfo, { BackgroundTransparency = 1 })
-		local borderFadeOut = TweenService:Create(background.Border, tweenInfo, { Transparency = 0.5 })
-		
-		repeat wait() until not hovering
-		
-		backgroundFadeOut:Play()
-		borderFadeOut:Play()
-	end
-	
-	local function OnMouseLeave()
-		hovering = false
-		active = false
-	end
-	
-	button.MouseButton1Down:Connect(OnMouseButton1Down)
-	button.MouseButton1Up:Connect(OnMouseButton1Up)
-	
-	button.MouseEnter:Connect(OnMouseEnter)
-	button.MouseLeave:Connect(OnMouseLeave)
-end
-coroutine.wrap(OPIB_fake_script)()
-local function XPNLT_fake_script() -- HomeButton.RippleEffect 
+coroutine.wrap(GYVNP_fake_script)()
+local function VOPRBU_fake_script() -- HomeButton.RippleEffect 
 	local script = Instance.new('LocalScript', HomeButton)
 
 	local Players = game:GetService("Players")
@@ -1501,18 +1466,19 @@ local function XPNLT_fake_script() -- HomeButton.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(XPNLT_fake_script)()
-local function JCKNMI_fake_script() -- HomeButton.LocalScript 
+coroutine.wrap(VOPRBU_fake_script)()
+local function VMXZWN_fake_script() -- HomeButton.LocalScript 
 	local script = Instance.new('LocalScript', HomeButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.ScriptFrame.Visible = false
 		script.Parent.Parent.HomeFrame.Visible = true
 		script.Parent.Parent.SettingsFrame.Visible = false
+		script.Parent.Parent.CreditsFrame.Visible = false
 	end)
 end
-coroutine.wrap(JCKNMI_fake_script)()
-local function LPQHK_fake_script() -- SettingsButton.RippleEffect 
+coroutine.wrap(VMXZWN_fake_script)()
+local function JDWR_fake_script() -- SettingsButton.RippleEffect 
 	local script = Instance.new('LocalScript', SettingsButton)
 
 	local Players = game:GetService("Players")
@@ -1656,18 +1622,19 @@ local function LPQHK_fake_script() -- SettingsButton.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(LPQHK_fake_script)()
-local function YTODAK_fake_script() -- SettingsButton.LocalScript 
+coroutine.wrap(JDWR_fake_script)()
+local function ZPJF_fake_script() -- SettingsButton.LocalScript 
 	local script = Instance.new('LocalScript', SettingsButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.ScriptFrame.Visible = false
 		script.Parent.Parent.HomeFrame.Visible = false
 		script.Parent.Parent.SettingsFrame.Visible = true
+		script.Parent.Parent.CreditsFrame.Visible = false
 	end)
 end
-coroutine.wrap(YTODAK_fake_script)()
-local function QVHV_fake_script() -- OwlHub.LocalScript 
+coroutine.wrap(ZPJF_fake_script)()
+local function GMISHNW_fake_script() -- OwlHub.LocalScript 
 	local script = Instance.new('LocalScript', OwlHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1675,8 +1642,8 @@ local function QVHV_fake_script() -- OwlHub.LocalScript
 	end)
 	
 end
-coroutine.wrap(QVHV_fake_script)()
-local function ORFAXQU_fake_script() -- OwlHub.RippleEffect 
+coroutine.wrap(GMISHNW_fake_script)()
+local function LCDPNC_fake_script() -- OwlHub.RippleEffect 
 	local script = Instance.new('LocalScript', OwlHub)
 
 	local Players = game:GetService("Players")
@@ -1820,8 +1787,8 @@ local function ORFAXQU_fake_script() -- OwlHub.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(ORFAXQU_fake_script)()
-local function ETSDLZQ_fake_script() -- PetSimXMLScript.LocalScript 
+coroutine.wrap(LCDPNC_fake_script)()
+local function HEKO_fake_script() -- PetSimXMLScript.LocalScript 
 	local script = Instance.new('LocalScript', PetSimXMLScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1829,8 +1796,8 @@ local function ETSDLZQ_fake_script() -- PetSimXMLScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(ETSDLZQ_fake_script)()
-local function DZSZL_fake_script() -- PetSimXMLScript.RippleEffect 
+coroutine.wrap(HEKO_fake_script)()
+local function YNVIMJ_fake_script() -- PetSimXMLScript.RippleEffect 
 	local script = Instance.new('LocalScript', PetSimXMLScript)
 
 	local Players = game:GetService("Players")
@@ -1974,8 +1941,8 @@ local function DZSZL_fake_script() -- PetSimXMLScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(DZSZL_fake_script)()
-local function HGTR_fake_script() -- InfiniteYieldScript.LocalScript 
+coroutine.wrap(YNVIMJ_fake_script)()
+local function KJWUPUG_fake_script() -- InfiniteYieldScript.LocalScript 
 	local script = Instance.new('LocalScript', InfiniteYieldScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1983,8 +1950,8 @@ local function HGTR_fake_script() -- InfiniteYieldScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(HGTR_fake_script)()
-local function HYPEPL_fake_script() -- InfiniteYieldScript.RippleEffect 
+coroutine.wrap(KJWUPUG_fake_script)()
+local function XBRCDC_fake_script() -- InfiniteYieldScript.RippleEffect 
 	local script = Instance.new('LocalScript', InfiniteYieldScript)
 
 	local Players = game:GetService("Players")
@@ -2128,8 +2095,8 @@ local function HYPEPL_fake_script() -- InfiniteYieldScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(HYPEPL_fake_script)()
-local function VKZYH_fake_script() -- JailBreakScript.LocalScript 
+coroutine.wrap(XBRCDC_fake_script)()
+local function ZUYAWQH_fake_script() -- JailBreakScript.LocalScript 
 	local script = Instance.new('LocalScript', JailBreakScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2137,8 +2104,8 @@ local function VKZYH_fake_script() -- JailBreakScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(VKZYH_fake_script)()
-local function RUHBSUG_fake_script() -- JailBreakScript.RippleEffect 
+coroutine.wrap(ZUYAWQH_fake_script)()
+local function GUTYBB_fake_script() -- JailBreakScript.RippleEffect 
 	local script = Instance.new('LocalScript', JailBreakScript)
 
 	local Players = game:GetService("Players")
@@ -2282,8 +2249,8 @@ local function RUHBSUG_fake_script() -- JailBreakScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(RUHBSUG_fake_script)()
-local function FNBRT_fake_script() -- HorificHousingScript.LocalScript 
+coroutine.wrap(GUTYBB_fake_script)()
+local function XRUDTL_fake_script() -- HorificHousingScript.LocalScript 
 	local script = Instance.new('LocalScript', HorificHousingScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2291,8 +2258,8 @@ local function FNBRT_fake_script() -- HorificHousingScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(FNBRT_fake_script)()
-local function DXZCM_fake_script() -- HorificHousingScript.RippleEffect 
+coroutine.wrap(XRUDTL_fake_script)()
+local function DCIELX_fake_script() -- HorificHousingScript.RippleEffect 
 	local script = Instance.new('LocalScript', HorificHousingScript)
 
 	local Players = game:GetService("Players")
@@ -2436,8 +2403,8 @@ local function DXZCM_fake_script() -- HorificHousingScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(DXZCM_fake_script)()
-local function RXKWG_fake_script() -- TowerOfHellScript.LocalScript 
+coroutine.wrap(DCIELX_fake_script)()
+local function AHQXSZE_fake_script() -- TowerOfHellScript.LocalScript 
 	local script = Instance.new('LocalScript', TowerOfHellScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2445,8 +2412,8 @@ local function RXKWG_fake_script() -- TowerOfHellScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(RXKWG_fake_script)()
-local function APMLX_fake_script() -- TowerOfHellScript.RippleEffect 
+coroutine.wrap(AHQXSZE_fake_script)()
+local function MHTXED_fake_script() -- TowerOfHellScript.RippleEffect 
 	local script = Instance.new('LocalScript', TowerOfHellScript)
 
 	local Players = game:GetService("Players")
@@ -2590,8 +2557,8 @@ local function APMLX_fake_script() -- TowerOfHellScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(APMLX_fake_script)()
-local function HCFM_fake_script() -- AdoptMeScript.LocalScript 
+coroutine.wrap(MHTXED_fake_script)()
+local function PSURI_fake_script() -- AdoptMeScript.LocalScript 
 	local script = Instance.new('LocalScript', AdoptMeScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2599,8 +2566,8 @@ local function HCFM_fake_script() -- AdoptMeScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(HCFM_fake_script)()
-local function RWXLKR_fake_script() -- AdoptMeScript.RippleEffect 
+coroutine.wrap(PSURI_fake_script)()
+local function LQCF_fake_script() -- AdoptMeScript.RippleEffect 
 	local script = Instance.new('LocalScript', AdoptMeScript)
 
 	local Players = game:GetService("Players")
@@ -2744,8 +2711,8 @@ local function RWXLKR_fake_script() -- AdoptMeScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(RWXLKR_fake_script)()
-local function BRVMX_fake_script() -- BaseBattlesScript.LocalScript 
+coroutine.wrap(LQCF_fake_script)()
+local function OMAFE_fake_script() -- BaseBattlesScript.LocalScript 
 	local script = Instance.new('LocalScript', BaseBattlesScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2753,8 +2720,8 @@ local function BRVMX_fake_script() -- BaseBattlesScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(BRVMX_fake_script)()
-local function VJUOQR_fake_script() -- BaseBattlesScript.RippleEffect 
+coroutine.wrap(OMAFE_fake_script)()
+local function FMTF_fake_script() -- BaseBattlesScript.RippleEffect 
 	local script = Instance.new('LocalScript', BaseBattlesScript)
 
 	local Players = game:GetService("Players")
@@ -2898,8 +2865,8 @@ local function VJUOQR_fake_script() -- BaseBattlesScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(VJUOQR_fake_script)()
-local function HZFC_fake_script() -- ArsenalScript.RippleEffect 
+coroutine.wrap(FMTF_fake_script)()
+local function OIPAD_fake_script() -- ArsenalScript.RippleEffect 
 	local script = Instance.new('LocalScript', ArsenalScript)
 
 	local Players = game:GetService("Players")
@@ -3043,8 +3010,8 @@ local function HZFC_fake_script() -- ArsenalScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(HZFC_fake_script)()
-local function NOMXGGB_fake_script() -- ArsenalScript.LocalScript 
+coroutine.wrap(OIPAD_fake_script)()
+local function ABHMOWL_fake_script() -- ArsenalScript.LocalScript 
 	local script = Instance.new('LocalScript', ArsenalScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3052,8 +3019,8 @@ local function NOMXGGB_fake_script() -- ArsenalScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(NOMXGGB_fake_script)()
-local function CAPN_fake_script() -- Mm2EclipseScript.RippleEffect 
+coroutine.wrap(ABHMOWL_fake_script)()
+local function DLBQFXW_fake_script() -- Mm2EclipseScript.RippleEffect 
 	local script = Instance.new('LocalScript', Mm2EclipseScript)
 
 	local Players = game:GetService("Players")
@@ -3197,8 +3164,8 @@ local function CAPN_fake_script() -- Mm2EclipseScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(CAPN_fake_script)()
-local function EHIJBYD_fake_script() -- Mm2EclipseScript.LocalScript 
+coroutine.wrap(DLBQFXW_fake_script)()
+local function VMTB_fake_script() -- Mm2EclipseScript.LocalScript 
 	local script = Instance.new('LocalScript', Mm2EclipseScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3206,8 +3173,8 @@ local function EHIJBYD_fake_script() -- Mm2EclipseScript.LocalScript
 	end)
 	
 end
-coroutine.wrap(EHIJBYD_fake_script)()
-local function DOGGXT_fake_script() -- BedwarsScript.RippleEffect 
+coroutine.wrap(VMTB_fake_script)()
+local function NFGNPJ_fake_script() -- BedwarsScript.RippleEffect 
 	local script = Instance.new('LocalScript', BedwarsScript)
 
 	local Players = game:GetService("Players")
@@ -3351,8 +3318,8 @@ local function DOGGXT_fake_script() -- BedwarsScript.RippleEffect
 	button.MouseEnter:Connect(OnMouseEnter)
 	button.MouseLeave:Connect(OnMouseLeave)
 end
-coroutine.wrap(DOGGXT_fake_script)()
-local function KLTQVIO_fake_script() -- BedwarsScript.LocalScript 
+coroutine.wrap(NFGNPJ_fake_script)()
+local function GXXCRR_fake_script() -- BedwarsScript.LocalScript 
 	local script = Instance.new('LocalScript', BedwarsScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3360,8 +3327,8 @@ local function KLTQVIO_fake_script() -- BedwarsScript.LocalScript
 	end)	
 	
 end
-coroutine.wrap(KLTQVIO_fake_script)()
-local function IPNX_fake_script() -- ImageLabel_2.LocalScript 
+coroutine.wrap(GXXCRR_fake_script)()
+local function KIPZW_fake_script() -- ImageLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel_2)
 
 	local Players = game:GetService("Players")
@@ -3376,30 +3343,85 @@ local function IPNX_fake_script() -- ImageLabel_2.LocalScript
 	local imageLabel = script.Parent
 	imageLabel.Image = content
 end
-coroutine.wrap(IPNX_fake_script)()
-local function MLJDEA_fake_script() -- MainFrame.LocalScript 
+coroutine.wrap(KIPZW_fake_script)()
+local function IJBM_fake_script() -- MainFrame.PlrWelcome 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local PlayerName = game.Players.LocalPlayer.Name
 	
 	script.Parent.HomeFrame.Title2.Text = ''..PlayerName.. ''
 end
-coroutine.wrap(MLJDEA_fake_script)()
-local function VRTX_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(IJBM_fake_script)()
+local function BGNFRSD_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	
 end
-coroutine.wrap(VRTX_fake_script)()
-local function AELRPY_fake_script() -- LoadingFrame.TitleScript 
+coroutine.wrap(BGNFRSD_fake_script)()
+local function GABGAC_fake_script() -- MainFrame.TimeScript 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	local mainFrame = script.Parent.Parent:WaitForChild("MainFrame")
+	local timeLabel = mainFrame:WaitForChild("Time")
+	
+	while wait() do
+		local seconds = os.date("*t")["sec"]
+		local minutes = os.date("*t")["min"]
+		local hours = os.date("*t")["hour"]
+	
+		if tonumber(seconds)<= 9 then
+			seconds = "0".. seconds
+	
+		end
+		if tonumber(minutes) <= 9 then
+			minutes = "0"..minutes
+	
+		end
+		if tonumber(hours)<= 9 then
+			hours = "0"..hours
+	
+		end
+		timeLabel.Text = hours..":"..minutes..":"..seconds
+	end
+end
+coroutine.wrap(GABGAC_fake_script)()
+local function ITKVP_fake_script() -- MainFrame.DateAndTime 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	while wait() do 
+		local Data = os.date("*t")
+		local Months = {"Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"}
+		local Date = script.Parent.HomeFrame:WaitForChild("Date")
+		local Time = script.Parent.HomeFrame:WaitForChild("Time")
+		for i,v in pairs(Months) do
+			if Data.month == i then
+		Data.Text = v.."/"..Data.day.."/"..Data.year
+		end
+	end
+	Time.Text = Data.hour..":"..Data.min..":"..Data.sec
+	end
+end
+coroutine.wrap(ITKVP_fake_script)()
+local function ESGC_fake_script() -- FPSCounter.FPS Counter 
+	local script = Instance.new('LocalScript', FPSCounter)
+
+	local textLabel = script.Parent
+	
+	while wait() do
+		local fps = game.Workspace:GetRealPhysicsFPS()
+		textLabel.Text = "FPS: "..math.floor(fps)
+	end
+end
+coroutine.wrap(ESGC_fake_script)()
+local function LYJSFB_fake_script() -- LoadingFrame.TitleScript 
 	local script = Instance.new('LocalScript', LoadingFrame)
 
 	local PlayerName = game.Players.LocalPlayer.Name
 	
 	script.Parent.Title1.Text = 'Welcome To Nau Hub '..PlayerName.. '!'
 end
-coroutine.wrap(AELRPY_fake_script)()
-local function GZUEXXH_fake_script() -- ScriptLoadingButton.Tweening 
+coroutine.wrap(LYJSFB_fake_script)()
+local function EOXJQNT_fake_script() -- ScriptLoadingButton.Tweening 
 	local script = Instance.new('LocalScript', ScriptLoadingButton)
 
 	local tween = script.Parent.Parent
@@ -3416,25 +3438,16 @@ local function GZUEXXH_fake_script() -- ScriptLoadingButton.Tweening
 	
 	
 	script.Parent.MouseButton1Click:Connect(function()
-		wait(3)
+		local tween = script.Parent.Parent.Parent.MainFrame
+		wait(4)
 		script.Parent.Parent.Parent.MainFrame.Visible = true
+		tween:TweenPosition((UDim2.new(0, 634,0, 366)))
 	end)
 	
 	
 end
-coroutine.wrap(GZUEXXH_fake_script)()
-local function EVCPGO_fake_script() -- ScriptLoadingButton.Sound 
-	local script = Instance.new('LocalScript', ScriptLoadingButton)
-
-	function PlaySound( )
-		script.Parent.Parent.Parent.Sound1:Play( )
-	end
-	script.Parent.MouseButton1Click:connect (PlaySound)
-	
-	
-end
-coroutine.wrap(EVCPGO_fake_script)()
-local function UIRHIE_fake_script() -- LoadingFrame.TweeningScript 
+coroutine.wrap(EOXJQNT_fake_script)()
+local function UXXRGRA_fake_script() -- LoadingFrame.TweeningScript 
 	local script = Instance.new('LocalScript', LoadingFrame)
 
 	-- Script by Moses_chin2110
@@ -3449,8 +3462,8 @@ local function UIRHIE_fake_script() -- LoadingFrame.TweeningScript
 	end
 	
 end
-coroutine.wrap(UIRHIE_fake_script)()
-local function JLBX_fake_script() -- ImageLabel_3.LocalScript 
+coroutine.wrap(UXXRGRA_fake_script)()
+local function ZIAQZM_fake_script() -- ImageLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel_3)
 
 	local Players = game:GetService("Players")
@@ -3465,4 +3478,30 @@ local function JLBX_fake_script() -- ImageLabel_3.LocalScript
 	local imageLabel = script.Parent
 	imageLabel.Image = content
 end
-coroutine.wrap(JLBX_fake_script)()
+coroutine.wrap(ZIAQZM_fake_script)()
+local function JYBQ_fake_script() -- NauHub.RightCtrl 
+	local script = Instance.new('LocalScript', NauHub)
+
+	local UIS = game:GetService("UserInputService")
+	local tween = script.Parent.MainFrame
+	
+	UIS.InputBegan:Connect(function(input)
+		if input.KeyCode == Enum.KeyCode.RightControl then
+			    if script.Parent.MainFrame.Visible == true then
+				script.Parent.MainFrame.Visible =  tween:TweenPosition(UDim2.new(0, 634,0, 1100), "Out", "Quint")
+				wait(2)
+				script.Parent.MainFrame.Visible = false
+				
+			else
+				script.Parent.MainFrame.Visible = true tween:TweenPosition(UDim2.new(0, 634,0, 366),"In","Quint")
+				script.Parent.MainFrame.Visible = true
+					
+					
+			   end
+			end
+		end)	
+	
+		
+	
+end
+coroutine.wrap(JYBQ_fake_script)()
